@@ -1,0 +1,12 @@
+<!--pages/swipper/swipper.wxml-->
+<view bindtap="add" class=".add-button">
+  添加轮播图
+</view>
+
+<view class="for-box" wx:for="{{swipperList}}">
+  <view class="imageBox">
+    <image class="imageBox"src="{{item.url}}" mode="widthFix"/>
+  </view>
+  <view data-url="{{item.url}}"bindtap="delete"class="deleteBox"type="ios-close-circle-outline" size="40">
+  删除</view>
+</view>

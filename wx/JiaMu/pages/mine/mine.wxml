@@ -1,0 +1,72 @@
+<!--pages/mine/mine.wxml-->
+<view class="jiamu-mine">
+
+  <!--用户信息展示-->
+  <view class="jiamu-mine-userinfo"
+        style="height:{{0.2*scrennHeight}}px;">
+      <view class="jiamu-mine-userinfo-avatar">
+          <open-data type="userAvatarUrl"></open-data>
+      </view>
+      <view class="jiamu-mine-userinfo-nickname">
+        <open-data type="userNickName"></open-data>
+      </view>
+  </view> 
+
+  <!--导航栏展示-->
+  <view class="jiamu-mine-button-box">
+    <view class="jiamu-mine-button" 
+          style="height:{{0.04*scrennHeight}}px;padding:{{0.02*scrennHeight}}px 0px;"   
+          bindtap='navigateToOrder'>
+       <view class="jiamu-mine-icon-left">
+          <wux-icon type="ios-heart-empty" size="25" color="#ec008c" />
+       </view>
+       <view class="jiamu-mine-text">订单</view>
+       <view class="jiamu-mine-icon-right">
+          <wux-icon type="ios-arrow-forward" size="25" />
+       </view>
+    </view>
+    <view class="jiamu-mine-button" 
+          style="height:{{0.04*scrennHeight}}px;padding:{{0.02*scrennHeight}}px 0px;"  
+          bindtap='navigateToAddress'>
+       <view class="jiamu-mine-icon-left">
+          <wux-icon type="ios-globe" size="25" color="#0081ff	" />
+       </view>
+       <view class="jiamu-mine-text">收货地址管理</view>
+       <view class="jiamu-mine-icon-right">
+          <wux-icon type="ios-arrow-forward" size="25" />
+       </view>
+    </view>
+    <view class="jiamu-mine-button" 
+          style="height:{{0.04*scrennHeight}}px;padding:{{0.02*scrennHeight}}px 0px;" 
+           bindtap='navigateToMap'>
+       <view class="jiamu-mine-icon-left">
+          <wux-icon type="ios-link" size="25" color="#1cbbb4" />
+       </view>
+       <view class="jiamu-mine-text">门店地址</view>
+       <view class="jiamu-mine-icon-right">
+          <wux-icon type="ios-arrow-forward" size="25" />
+       </view>
+    </view>
+    <view class="jiamu-mine-button" 
+          style="height:{{0.04*scrennHeight}}px;padding:{{0.02*scrennHeight}}px 0px;"  
+          bindtap='phone'>
+       <view class="jiamu-mine-icon-left">
+          <wux-icon type="ios-call" size="25" color="#39b54a" />
+       </view>
+       <view class="jiamu-mine-text">联系电话</view>
+       <view class="jiamu-mine-icon-right">
+          <wux-icon type="ios-arrow-forward" size="25"   />
+       </view>
+    </view>
+  </view>
+  
+  
+  <!--版本信息-->
+  <view class="jiamu-mine-copyright">
+    <text>{{copyright}}
+    </text>
+    <text>小程序业务联系(微信）：alex1844515195</text>
+  </view>
+
+
+</view>

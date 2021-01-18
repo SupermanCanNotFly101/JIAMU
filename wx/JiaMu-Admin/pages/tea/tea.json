@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "van-field": "../../vant-dist//field/index",
+    "wux-button": "../../dist/button/index"
+  }
+}

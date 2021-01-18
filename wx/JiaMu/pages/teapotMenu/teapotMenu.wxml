@@ -1,0 +1,23 @@
+<!--pages/teapotMenu/teapotMenu.wxml-->
+
+<view class="teaBox" wx:for="{{tea}}" wx:key="unique">
+  <view class="teaPhotoBox">
+    <image class="teaPhoto" mode="widthFix" src="{{item.teaPhotoUrl}}"></image>
+  </view>
+  <view class="teaText">
+    <view class="teaName">{{item.teaName}}</view>
+    <view class="teaPrice">¥{{item.teaPrice}}</view>
+  </view>
+  <view class="teaInfo">
+    <view class="teaInfoText">规格：{{item.teaSize}}</view>
+    <view class="teaInfoText">质感：{{item.teaTaste}}</view>
+    <view class="teaInfoText">介绍：{{item.teaInfo}}</view>
+    <view class="teaInfoButton" 
+          data-index="{{index}}" 
+          bindtap="gotoDetail">查看详情</view>
+  </view>
+
+</view>
+
+
+

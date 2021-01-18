@@ -1,0 +1,9 @@
+/* pages/swipper/add/add.wxss */
+page{
+  background-color: white;
+}
+
+.upload-box
+{
+  margin: 70rpx 70rpx;
+}

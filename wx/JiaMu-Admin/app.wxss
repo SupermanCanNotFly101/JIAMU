@@ -1,0 +1,15 @@
+/**app.wxss**/
+@import "colorui/main.wxss";
+@import "colorui/icon.wxss";
+
+.add-button
+{
+  background-color: white;
+  margin: 40rpx 5%;
+  width:90%;
+  border: solid 2rpx #e6e1dd;
+  text-align: center;
+  padding: 90rpx 0rpx;
+  color:#b8a596;
+  line-height: 20rpx;
+}

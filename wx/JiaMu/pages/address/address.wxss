@@ -1,0 +1,91 @@
+/* pages/address/address.wxss */
+page
+{
+  width:100%;
+  height:100%;
+  background-color: white;
+}
+
+.address-add-button
+{
+  background-color: white;
+  margin: 40rpx 5%;
+  width:90%;
+  height:200rpx;
+  border: solid 2rpx #e6e1dd;
+  text-align: center;
+  padding: 90rpx 0rpx;
+  color:#b8a596;
+  line-height: 20rpx;
+}
+
+.address-box
+{
+  background-color: #e6e1dd;
+  margin: 40rpx 5%;
+  width:90%;
+  height:200rpx;
+  color:#666666;
+}
+
+.address-first
+{
+  padding: 30rpx 40rpx 10rpx 40rpx;
+  overflow:auto;
+  zoom:1;
+  
+}
+
+.address-name
+{
+  width:70%;
+  text-align: left;
+  float: left;
+  font-size:40rpx;
+  font-weight: bold;
+  white-space: nowrap;   
+  overflow: hidden;
+  text-overflow:ellipsis;
+}
+
+
+.address-second
+{
+  padding: 0rpx 40rpx 0rpx 40rpx; 
+  font-size:25rpx;
+  display: inline-block;
+  white-space: nowrap;   
+  overflow: hidden;
+  text-overflow:ellipsis;
+  width:90%;
+}
+
+.address-thrid
+{
+  padding: 0rpx 40rpx 40rpx 40rpx; 
+  
+}
+
+.address-phone
+{
+  text-align: left;
+  font-size:25rpx;
+  width:80%;
+  float: left;
+}
+
+.address-update
+{
+  float:left;
+  width:30%;
+  text-align: right;
+  font-size:40rpx;
+}
+
+.address-delete
+{
+  float:left;
+  width:20%;
+  text-align: right;
+  font-size:40rpx;
+}

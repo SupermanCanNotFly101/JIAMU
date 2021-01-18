@@ -1,0 +1,1251 @@
+2020-06-17 08:23:32.047  INFO 16 --- [main] com.jiamu.jiamu001.Jiamu001Application   : Starting Jiamu001Application v0.0.1-SNAPSHOT on 32e2e992d946 with PID 16 (/app/jiamu001-0.0.1-SNAPSHOT.jar started by root in /app)
+2020-06-17 08:23:32.134  INFO 16 --- [main] com.jiamu.jiamu001.Jiamu001Application   : No active profile set, falling back to default profiles: default
+2020-06-17 08:23:34.570  INFO 16 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2020-06-17 08:23:34.700  INFO 16 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 99ms. Found 0 JDBC repository interfaces.
+2020-06-17 08:23:35.550  INFO 16 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'shiroConfig' of type [com.jiamu.jiamu001.config.ShiroConfig$$EnhancerBySpringCGLIB$$a00ee142] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-17 08:23:35.782  INFO 16 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'mybatis-org.mybatis.spring.boot.autoconfigure.MybatisProperties' of type [org.mybatis.spring.boot.autoconfigure.MybatisProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-17 08:23:35.810  INFO 16 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration' of type [org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$b28b9a10] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-17 08:23:35.822  INFO 16 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'druidConfig' of type [com.jiamu.jiamu001.config.DruidConfig$$EnhancerBySpringCGLIB$$f4b544b3] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-17 08:23:36.152  INFO 16 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'druid' of type [com.alibaba.druid.pool.DruidDataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-17 08:23:36.445  INFO 16 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'sqlSessionFactory' of type [org.apache.ibatis.session.defaults.DefaultSqlSessionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-17 08:23:36.474  INFO 16 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'sqlSessionTemplate' of type [org.mybatis.spring.SqlSessionTemplate] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-17 08:23:36.603  INFO 16 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'weixinAdminMapper' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-17 08:23:36.617  INFO 16 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'weixinAdminMapper' of type [com.sun.proxy.$Proxy68] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-17 08:23:36.635  INFO 16 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'weixinAdminLoginServiceImpl' of type [com.jiamu.jiamu001.serviceImpl.WeixinAdminLoginServiceImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-17 08:23:36.639  INFO 16 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'myRealm' of type [com.jiamu.jiamu001.serviceImpl.MyRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-17 08:23:36.874  INFO 16 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-17 08:23:37.027  INFO 16 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'authorizationAttributeSourceAdvisor' of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-17 08:23:37.786  INFO 16 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-06-17 08:23:37.825  INFO 16 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-06-17 08:23:37.828  INFO 16 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-06-17 08:23:38.241  INFO 16 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-06-17 08:23:38.244  INFO 16 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 5785 ms
+2020-06-17 08:23:40.577  INFO 16 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-06-17 08:23:40.592  INFO 16 --- [main] com.jiamu.jiamu001.Jiamu001Application   : Started Jiamu001Application in 10.751 seconds (JVM running for 12.585)
+2020-06-17 08:24:06.310  INFO 16 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-06-17 08:24:06.313  INFO 16 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-06-17 08:24:06.343  INFO 16 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 28 ms
+2020-06-17 08:24:06.558  INFO 16 --- [http-nio-8080-exec-1] c.j.j.s.WeixinUserLoginServiceImpl       : Start get SessionKey，loginRequest的数据为：0119YXF00IAkeJ13b1E00O64G009YXFz
+2020-06-17 08:24:12.618 ERROR 16 --- [http-nio-8080-exec-2] com.alibaba.druid.pool.DruidDataSource   : init datasource error, url: jdbc:mysql://127.0.0.1:12400/jiamu?autoReconnect=true&useUnicode=true&characterEncoding=utf-8&allowMultiQueries=true&zeroDateTimeBehavior=convertToNull&useSSL=false
+
+java.sql.SQLNonTransientConnectionException: Could not create connection to database server. Attempted reconnect 3 times. Giving up.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:110) ~[mysql-connector-java-8.0.19.jar!/:8.0.19]
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97) ~[mysql-connector-java-8.0.19.jar!/:8.0.19]
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:89) ~[mysql-connector-java-8.0.19.jar!/:8.0.19]
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:63) ~[mysql-connector-java-8.0.19.jar!/:8.0.19]
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:73) ~[mysql-connector-java-8.0.19.jar!/:8.0.19]
+	at com.mysql.cj.jdbc.ConnectionImpl.connectWithRetries(ConnectionImpl.java:906) ~[mysql-connector-java-8.0.19.jar!/:8.0.19]
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:831) ~[mysql-connector-java-8.0.19.jar!/:8.0.19]
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:456) ~[mysql-connector-java-8.0.19.jar!/:8.0.19]
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:246) ~[mysql-connector-java-8.0.19.jar!/:8.0.19]
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:197) ~[mysql-connector-java-8.0.19.jar!/:8.0.19]
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:156) ~[druid-1.1.22.jar!/:1.1.22]
+	at com.alibaba.druid.filter.FilterAdapter.connection_connect(FilterAdapter.java:787) ~[druid-1.1.22.jar!/:1.1.22]
+	at com.alibaba.druid.filter.FilterEventAdapter.connection_connect(FilterEventAdapter.java:38) ~[druid-1.1.22.jar!/:1.1.22]
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:150) ~[druid-1.1.22.jar!/:1.1.22]
+	at com.alibaba.druid.filter.FilterAdapter.connection_connect(FilterAdapter.java:787) ~[druid-1.1.22.jar!/:1.1.22]
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:150) ~[druid-1.1.22.jar!/:1.1.22]
+	at com.alibaba.druid.filter.stat.StatFilter.connection_connect(StatFilter.java:218) ~[druid-1.1.22.jar!/:1.1.22]
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:150) ~[druid-1.1.22.jar!/:1.1.22]
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1646) ~[druid-1.1.22.jar!/:1.1.22]
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1710) ~[druid-1.1.22.jar!/:1.1.22]
+	at com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:923) [druid-1.1.22.jar!/:1.1.22]
+	at com.alibaba.druid.pool.DruidDataSource.getConnection(DruidDataSource.java:1383) [druid-1.1.22.jar!/:1.1.22]
+	at com.alibaba.druid.pool.DruidDataSource.getConnection(DruidDataSource.java:1379) [druid-1.1.22.jar!/:1.1.22]
+	at com.alibaba.druid.pool.DruidDataSource.getConnection(DruidDataSource.java:109) [druid-1.1.22.jar!/:1.1.22]
+	at org.springframework.jdbc.datasource.DataSourceUtils.fetchConnection(DataSourceUtils.java:158) [spring-jdbc-5.2.5.RELEASE.jar!/:5.2.5.RELEASE]
+	at org.springframework.jdbc.datasource.DataSourceUtils.doGetConnection(DataSourceUtils.java:116) [spring-jdbc-5.2.5.RELEASE.jar!/:5.2.5.RELEASE]
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:79) [spring-jdbc-5.2.5.RELEASE.jar!/:5.2.5.RELEASE]
+	at org.mybatis.spring.transaction.SpringManagedTransaction.openConnection(SpringManagedTransaction.java:80) [mybatis-spring-2.0.4.jar!/:2.0.4]
+	at org.mybatis.spring.transaction.SpringManagedTransaction.getConnection(SpringManagedTransaction.java:67) [mybatis-spring-2.0.4.jar!/:2.0.4]
+	at org.apache.ibatis.executor.BaseExecutor.getConnection(BaseExecutor.java:336) [mybatis-3.5.4.jar!/:3.5.4]
+	at org.apache.ibatis.executor.SimpleExecutor.prepareStatement(SimpleExecutor.java:86) [mybatis-3.5.4.jar!/:3.5.4]
+	at org.apache.ibatis.executor.SimpleExecutor.doQuery(SimpleExecutor.java:62) [mybatis-3.5.4.jar!/:3.5.4]
+	at org.apache.ibatis.executor.BaseExecutor.queryFromDatabase(BaseExecutor.java:324) [mybatis-3.5.4.jar!/:3.5.4]
+	at org.apache.ibatis.executor.BaseExecutor.query(BaseExecutor.java:156) [mybatis-3.5.4.jar!/:3.5.4]
+	at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:109) [mybatis-3.5.4.jar!/:3.5.4]
+	at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:83) [mybatis-3.5.4.jar!/:3.5.4]
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:147) [mybatis-3.5.4.jar!/:3.5.4]
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:140) [mybatis-3.5.4.jar!/:3.5.4]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_111]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_111]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_111]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_111]
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:426) [mybatis-spring-2.0.4.jar!/:2.0.4]
+	at com.sun.proxy.$Proxy62.selectList(Unknown Source) [na:na]
+	at org.mybatis.spring.SqlSessionTemplate.selectList(SqlSessionTemplate.java:223) [mybatis-spring-2.0.4.jar!/:2.0.4]
+	at org.apache.ibatis.binding.MapperMethod.executeForMany(MapperMethod.java:147) [mybatis-3.5.4.jar!/:3.5.4]
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:80) [mybatis-3.5.4.jar!/:3.5.4]
+	at org.apache.ibatis.binding.MapperProxy$PlainMethodInvoker.invoke(MapperProxy.java:144) [mybatis-3.5.4.jar!/:3.5.4]
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:85) [mybatis-3.5.4.jar!/:3.5.4]
+	at com.sun.proxy.$Proxy88.getSwipper(Unknown Source) [na:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_111]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_111]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_111]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_111]
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:344) [spring-aop-5.2.5.RELEASE.jar!/:5.2.5.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:198) [spring-aop-5.2.5.RELEASE.jar!/:5.2.5.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) [spring-aop-5.2.5.RELEASE.jar!/:5.2.5.RELEASE]
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:139) [spring-tx-5.2.5.RELEASE.jar!/:5.2.5.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) [spring-aop-5.2.5.RELEASE.jar!/:5.2.5.RELEASE]
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:212) [spring-aop-5.2.5.RELEASE.jar!/:5.2.5.RELEASE]
+	at com.sun.proxy.$Proxy89.getSwipper(Unknown Source) [na:na]
+	at com.jiamu.jiamu001.serviceImpl.WeixinSwipperServiceImpl.getSwipper(WeixinSwipperServiceImpl.java:115) [classes!/:0.0.1-SNAPSHOT]
+	at com.jiamu.jiamu001.controller.WeixinSwipperController.getSwipper(WeixinSwipperController.java:67) [classes!/:0.0.1-SNAPSHOT]
+	at com.jiamu.jiamu001.controller.WeixinSwipperController$$FastClassBySpringCGLIB$$1f489fd0.invoke(<generated>) [classes!/:0.0.1-SNAPSHOT]
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218) [spring-core-5.2.5.RELEASE.jar!/:5.2.5.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:687) [spring-aop-5.2.5.RELEASE.jar!/:5.2.5.RELEASE]
+	at com.jiamu.jiamu001.controller.WeixinSwipperController$$EnhancerBySpringCGLIB$$45f995a1.getSwipper(<generated>) [classes!/:0.0.1-SNAPSHOT]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_111]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_111]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_111]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_111]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190) [spring-web-5.2.5.RELEASE.jar!/:5.2.5.RELEASE]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138) [spring-web-5.2.5.RELEASE.jar!/:5.2.5.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105) [spring-webmvc-5.2.5.RELEASE.jar!/:5.2.5.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:879) [spring-webmvc-5.2.5.RELEASE.jar!/:5.2.5.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793) [spring-webmvc-5.2.5.RELEASE.jar!/:5.2.5.RELEASE]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) [spring-webmvc-5.2.5.RELEASE.jar!/:5.2.5.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040) [spring-webmvc-5.2.5.RELEASE.jar!/:5.2.5.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943) [spring-webmvc-5.2.5.RELEASE.jar!/:5.2.5.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) [spring-webmvc-5.2.5.RELEASE.jar!/:5.2.5.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898) [spring-webmvc-5.2.5.RELEASE.jar!/:5.2.5.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634) [tomcat-embed-core-9.0.33.jar!/:9.0.33]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) [spring-webmvc-5.2.5.RELEASE.jar!/:5.2.5.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741) [tomcat-embed-core-9.0.33.jar!/:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) [tomcat-embed-core-9.0.33.jar!/:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.33.jar!/:9.0.33]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) [tomcat-embed-websocket-9.0.33.jar!/:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.33.jar!/:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.33.jar!/:9.0.33]
+	at org.apache.shiro.web.servlet.ProxiedFilterChain.doFilter(ProxiedFilterChain.java:61) [shiro-web-1.3.2.jar!/:1.3.2]
+	at org.apache.shiro.web.servlet.AdviceFilter.executeChain(AdviceFilter.java:108) [shiro-web-1.3.2.jar!/:1.3.2]
+	at org.apache.shiro.web.servlet.AdviceFilter.doFilterInternal(AdviceFilter.java:137) [shiro-web-1.3.2.jar!/:1.3.2]
+	at org.apache.shiro.web.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:125) [shiro-web-1.3.2.jar!/:1.3.2]
+	at org.apache.shiro.web.servlet.ProxiedFilterChain.doFilter(ProxiedFilterChain.java:66) [shiro-web-1.3.2.jar!/:1.3.2]
+	at org.apache.shiro.web.servlet.AbstractShiroFilter.executeChain(AbstractShiroFilter.java:449) [shiro-web-1.3.2.jar!/:1.3.2]
+	at org.apache.shiro.web.servlet.AbstractShiroFilter$1.call(AbstractShiroFilter.java:365) [shiro-web-1.3.2.jar!/:1.3.2]
+	at org.apache.shiro.subject.support.SubjectCallable.doCall(SubjectCallable.java:90) [shiro-core-1.3.2.jar!/:1.3.2]
+	at org.apache.shiro.subject.support.SubjectCallable.call(SubjectCallable.java:83) [shiro-core-1.3.2.jar!/:1.3.2]
+	at org.apache.shiro.subject.support.DelegatingSubject.execute(DelegatingSubject.java:383) [shiro-core-1.3.2.jar!/:1.3.2]
+	at org.apache.shiro.web.servlet.AbstractShiroFilter.doFilterInternal(AbstractShiroFilter.java:362) [shiro-web-1.3.2.jar!/:1.3.2]
+	at org.apache.shiro.web.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:125) [shiro-web-1.3.2.jar!/:1.3.2]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.33.jar!/:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.33.jar!/:9.0.33]
+	at com.alibaba.druid.support.http.WebStatFilter.doFilter(WebStatFilter.java:124) [druid-1.1.22.jar!/:1.1.22]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.33.jar!/:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.33.jar!/:9.0.33]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) [spring-web-5.2.5.RELEASE.jar!/:5.2.5.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) [spring-web-5.2.5.RELEASE.jar!/:5.2.5.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.33.jar!/:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.33.jar!/:9.0.33]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) [tomcat-embed-core-9.0.33.jar!/:9.0.33]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) [tomcat-embed-core-9.0.33.jar!/:9.0.33]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541) [tomcat-embed-core-9.0.33.jar!/:9.0.33]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139) [tomcat-embed-core-9.0.33.jar!/:9.0.33]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) [tomcat-embed-core-9.0.33.jar!/:9.0.33]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) [tomcat-embed-core-9.0.33.jar!/:9.0.33]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) [tomcat-embed-core-9.0.33.jar!/:9.0.33]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373) [tomcat-embed-core-9.0.33.jar!/:9.0.33]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) [tomcat-embed-core-9.0.33.jar!/:9.0.33]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868) [tomcat-embed-core-9.0.33.jar!/:9.0.33]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1594) [tomcat-embed-core-9.0.33.jar!/:9.0.33]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.33.jar!/:9.0.33]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_111]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.33.jar!/:9.0.33]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_111]
+Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[na:1.8.0_111]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) ~[na:1.8.0_111]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[na:1.8.0_111]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423) ~[na:1.8.0_111]
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61) ~[mysql-connector-java-8.0.19.jar!/:8.0.19]
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105) ~[mysql-connector-java-8.0.19.jar!/:8.0.19]
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:151) ~[mysql-connector-java-8.0.19.jar!/:8.0.19]
+	at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:167) ~[mysql-connector-java-8.0.19.jar!/:8.0.19]
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:91) ~[mysql-connector-java-8.0.19.jar!/:8.0.19]
+	at com.mysql.cj.NativeSession.connect(NativeSession.java:144) ~[mysql-connector-java-8.0.19.jar!/:8.0.19]
+	at com.mysql.cj.jdbc.ConnectionImpl.connectWithRetries(ConnectionImpl.java:850) ~[mysql-connector-java-8.0.19.jar!/:8.0.19]
+	... 120 common frames omitted
+Caused by: java.net.ConnectException: Connection refused (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method) ~[na:1.8.0_111]
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350) ~[na:1.8.0_111]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206) ~[na:1.8.0_111]
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188) ~[na:1.8.0_111]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[na:1.8.0_111]
+	at java.net.Socket.connect(Socket.java:589) ~[na:1.8.0_111]
+	at com.mysql.cj.protocol.StandardSocketFactory.connect(StandardSocketFactory.java:155) ~[mysql-connector-java-8.0.19.jar!/:8.0.19]
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:65) ~[mysql-connector-java-8.0.19.jar!/:8.0.19]
+	... 122 common frames omitted
+
+2020-06-17 08:24:12.646 ERROR 16 --- [http-nio-8080-exec-2] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} init error
+
+java.sql.SQLNonTransientConnectionException: Could not create connection to database server. Attempted reconnect 3 times. Giving up.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:110) ~[mysql-connector-java-8.0.19.jar!/:8.0.19]
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97) ~[mysql-connector-java-8.0.19.jar!/:8.0.19]
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:89) ~[mysql-connector-java-8.0.19.jar!/:8.0.19]
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:63) ~[mysql-connector-java-8.0.19.jar!/:8.0.19]
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:73) ~[mysql-connector-java-8.0.19.jar!/:8.0.19]
+	at com.mysql.cj.jdbc.ConnectionImpl.connectWithRetries(ConnectionImpl.java:906) ~[mysql-connector-java-8.0.19.jar!/:8.0.19]
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:831) ~[mysql-connector-java-8.0.19.jar!/:8.0.19]
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:456) ~[mysql-connector-java-8.0.19.jar!/:8.0.19]
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:246) ~[mysql-connector-java-8.0.19.jar!/:8.0.19]
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:197) ~[mysql-connector-java-8.0.19.jar!/:8.0.19]
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:156) ~[druid-1.1.22.jar!/:1.1.22]
+	at com.alibaba.druid.filter.FilterAdapter.connection_connect(FilterAdapter.java:787) ~[druid-1.1.22.jar!/:1.1.22]
+	at com.alibaba.druid.filter.FilterEventAdapter.connection_connect(FilterEventAdapter.java:38) ~[druid-1.1.22.jar!/:1.1.22]
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:150) ~[druid-1.1.22.jar!/:1.1.22]
+	at com.alibaba.druid.filter.FilterAdapter.connection_connect(FilterAdapter.java:787) ~[druid-1.1.22.jar!/:1.1.22]
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:150) ~[druid-1.1.22.jar!/:1.1.22]
+	at com.alibaba.druid.filter.stat.StatFilter.connection_connect(StatFilter.java:218) ~[druid-1.1.22.jar!/:1.1.22]
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:150) ~[druid-1.1.22.jar!/:1.1.22]
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1646) ~[druid-1.1.22.jar!/:1.1.22]
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1710) ~[druid-1.1.22.jar!/:1.1.22]
+	at com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:923) [druid-1.1.22.jar!/:1.1.22]
+	at com.alibaba.druid.pool.DruidDataSource.getConnection(DruidDataSource.java:1383) [druid-1.1.22.jar!/:1.1.22]
+	at com.alibaba.druid.pool.DruidDataSource.getConnection(DruidDataSource.java:1379) [druid-1.1.22.jar!/:1.1.22]
+	at com.alibaba.druid.pool.DruidDataSource.getConnection(DruidDataSource.java:109) [druid-1.1.22.jar!/:1.1.22]
+	at org.springframework.jdbc.datasource.DataSourceUtils.fetchConnection(DataSourceUtils.java:158) [spring-jdbc-5.2.5.RELEASE.jar!/:5.2.5.RELEASE]
+	at org.springframework.jdbc.datasource.DataSourceUtils.doGetConnection(DataSourceUtils.java:116) [spring-jdbc-5.2.5.RELEASE.jar!/:5.2.5.RELEASE]
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:79) [spring-jdbc-5.2.5.RELEASE.jar!/:5.2.5.RELEASE]
+	at org.mybatis.spring.transaction.SpringManagedTransaction.openConnection(SpringManagedTransaction.java:80) [mybatis-spring-2.0.4.jar!/:2.0.4]
+	at org.mybatis.spring.transaction.SpringManagedTransaction.getConnection(SpringManagedTransaction.java:67) [mybatis-spring-2.0.4.jar!/:2.0.4]
+	at org.apache.ibatis.executor.BaseExecutor.getConnection(BaseExecutor.java:336) [mybatis-3.5.4.jar!/:3.5.4]
+	at org.apache.ibatis.executor.SimpleExecutor.prepareStatement(SimpleExecutor.java:86) [mybatis-3.5.4.jar!/:3.5.4]
+	at org.apache.ibatis.executor.SimpleExecutor.doQuery(SimpleExecutor.java:62) [mybatis-3.5.4.jar!/:3.5.4]
+	at org.apache.ibatis.executor.BaseExecutor.queryFromDatabase(BaseExecutor.java:324) [mybatis-3.5.4.jar!/:3.5.4]
+	at org.apache.ibatis.executor.BaseExecutor.query(BaseExecutor.java:156) [mybatis-3.5.4.jar!/:3.5.4]
+	at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:109) [mybatis-3.5.4.jar!/:3.5.4]
+	at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:83) [mybatis-3.5.4.jar!/:3.5.4]
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:147) [mybatis-3.5.4.jar!/:3.5.4]
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:140) [mybatis-3.5.4.jar!/:3.5.4]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_111]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_111]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_111]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_111]
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:426) [mybatis-spring-2.0.4.jar!/:2.0.4]
+	at com.sun.proxy.$Proxy62.selectList(Unknown Source) [na:na]
+	at org.mybatis.spring.SqlSessionTemplate.selectList(SqlSessionTemplate.java:223) [mybatis-spring-2.0.4.jar!/:2.0.4]
+	at org.apache.ibatis.binding.MapperMethod.executeForMany(MapperMethod.java:147) [mybatis-3.5.4.jar!/:3.5.4]
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:80) [mybatis-3.5.4.jar!/:3.5.4]
+	at org.apache.ibatis.binding.MapperProxy$PlainMethodInvoker.invoke(MapperProxy.java:144) [mybatis-3.5.4.jar!/:3.5.4]
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:85) [mybatis-3.5.4.jar!/:3.5.4]
+	at com.sun.proxy.$Proxy88.getSwipper(Unknown Source) [na:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_111]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_111]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_111]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_111]
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:344) [spring-aop-5.2.5.RELEASE.jar!/:5.2.5.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:198) [spring-aop-5.2.5.RELEASE.jar!/:5.2.5.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) [spring-aop-5.2.5.RELEASE.jar!/:5.2.5.RELEASE]
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:139) [spring-tx-5.2.5.RELEASE.jar!/:5.2.5.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) [spring-aop-5.2.5.RELEASE.jar!/:5.2.5.RELEASE]
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:212) [spring-aop-5.2.5.RELEASE.jar!/:5.2.5.RELEASE]
+	at com.sun.proxy.$Proxy89.getSwipper(Unknown Source) [na:na]
+	at com.jiamu.jiamu001.serviceImpl.WeixinSwipperServiceImpl.getSwipper(WeixinSwipperServiceImpl.java:115) [classes!/:0.0.1-SNAPSHOT]
+	at com.jiamu.jiamu001.controller.WeixinSwipperController.getSwipper(WeixinSwipperController.java:67) [classes!/:0.0.1-SNAPSHOT]
+	at com.jiamu.jiamu001.controller.WeixinSwipperController$$FastClassBySpringCGLIB$$1f489fd0.invoke(<generated>) [classes!/:0.0.1-SNAPSHOT]
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218) [spring-core-5.2.5.RELEASE.jar!/:5.2.5.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:687) [spring-aop-5.2.5.RELEASE.jar!/:5.2.5.RELEASE]
+	at com.jiamu.jiamu001.controller.WeixinSwipperController$$EnhancerBySpringCGLIB$$45f995a1.getSwipper(<generated>) [classes!/:0.0.1-SNAPSHOT]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_111]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_111]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_111]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_111]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190) [spring-web-5.2.5.RELEASE.jar!/:5.2.5.RELEASE]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138) [spring-web-5.2.5.RELEASE.jar!/:5.2.5.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105) [spring-webmvc-5.2.5.RELEASE.jar!/:5.2.5.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:879) [spring-webmvc-5.2.5.RELEASE.jar!/:5.2.5.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793) [spring-webmvc-5.2.5.RELEASE.jar!/:5.2.5.RELEASE]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) [spring-webmvc-5.2.5.RELEASE.jar!/:5.2.5.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040) [spring-webmvc-5.2.5.RELEASE.jar!/:5.2.5.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943) [spring-webmvc-5.2.5.RELEASE.jar!/:5.2.5.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) [spring-webmvc-5.2.5.RELEASE.jar!/:5.2.5.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898) [spring-webmvc-5.2.5.RELEASE.jar!/:5.2.5.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634) [tomcat-embed-core-9.0.33.jar!/:9.0.33]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) [spring-webmvc-5.2.5.RELEASE.jar!/:5.2.5.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741) [tomcat-embed-core-9.0.33.jar!/:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) [tomcat-embed-core-9.0.33.jar!/:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.33.jar!/:9.0.33]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) [tomcat-embed-websocket-9.0.33.jar!/:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.33.jar!/:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.33.jar!/:9.0.33]
+	at org.apache.shiro.web.servlet.ProxiedFilterChain.doFilter(ProxiedFilterChain.java:61) [shiro-web-1.3.2.jar!/:1.3.2]
+	at org.apache.shiro.web.servlet.AdviceFilter.executeChain(AdviceFilter.java:108) [shiro-web-1.3.2.jar!/:1.3.2]
+	at org.apache.shiro.web.servlet.AdviceFilter.doFilterInternal(AdviceFilter.java:137) [shiro-web-1.3.2.jar!/:1.3.2]
+	at org.apache.shiro.web.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:125) [shiro-web-1.3.2.jar!/:1.3.2]
+	at org.apache.shiro.web.servlet.ProxiedFilterChain.doFilter(ProxiedFilterChain.java:66) [shiro-web-1.3.2.jar!/:1.3.2]
+	at org.apache.shiro.web.servlet.AbstractShiroFilter.executeChain(AbstractShiroFilter.java:449) [shiro-web-1.3.2.jar!/:1.3.2]
+	at org.apache.shiro.web.servlet.AbstractShiroFilter$1.call(AbstractShiroFilter.java:365) [shiro-web-1.3.2.jar!/:1.3.2]
+	at org.apache.shiro.subject.support.SubjectCallable.doCall(SubjectCallable.java:90) [shiro-core-1.3.2.jar!/:1.3.2]
+	at org.apache.shiro.subject.support.SubjectCallable.call(SubjectCallable.java:83) [shiro-core-1.3.2.jar!/:1.3.2]
+	at org.apache.shiro.subject.support.DelegatingSubject.execute(DelegatingSubject.java:383) [shiro-core-1.3.2.jar!/:1.3.2]
+	at org.apache.shiro.web.servlet.AbstractShiroFilter.doFilterInternal(AbstractShiroFilter.java:362) [shiro-web-1.3.2.jar!/:1.3.2]
+	at org.apache.shiro.web.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:125) [shiro-web-1.3.2.jar!/:1.3.2]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.33.jar!/:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.33.jar!/:9.0.33]
+	at com.alibaba.druid.support.http.WebStatFilter.doFilter(WebStatFilter.java:124) [druid-1.1.22.jar!/:1.1.22]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.33.jar!/:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.33.jar!/:9.0.33]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) [spring-web-5.2.5.RELEASE.jar!/:5.2.5.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) [spring-web-5.2.5.RELEASE.jar!/:5.2.5.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.33.jar!/:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.33.jar!/:9.0.33]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) [tomcat-embed-core-9.0.33.jar!/:9.0.33]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) [tomcat-embed-core-9.0.33.jar!/:9.0.33]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541) [tomcat-embed-core-9.0.33.jar!/:9.0.33]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139) [tomcat-embed-core-9.0.33.jar!/:9.0.33]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) [tomcat-embed-core-9.0.33.jar!/:9.0.33]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) [tomcat-embed-core-9.0.33.jar!/:9.0.33]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) [tomcat-embed-core-9.0.33.jar!/:9.0.33]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373) [tomcat-embed-core-9.0.33.jar!/:9.0.33]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) [tomcat-embed-core-9.0.33.jar!/:9.0.33]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868) [tomcat-embed-core-9.0.33.jar!/:9.0.33]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1594) [tomcat-embed-core-9.0.33.jar!/:9.0.33]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.33.jar!/:9.0.33]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_111]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_111]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.33.jar!/:9.0.33]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_111]
+Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[na:1.8.0_111]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) ~[na:1.8.0_111]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[na:1.8.0_111]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423) ~[na:1.8.0_111]
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61) ~[mysql-connector-java-8.0.19.jar!/:8.0.19]
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105) ~[mysql-connector-java-8.0.19.jar!/:8.0.19]
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:151) ~[mysql-connector-java-8.0.19.jar!/:8.0.19]
+	at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:167) ~[mysql-connector-java-8.0.19.jar!/:8.0.19]
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:91) ~[mysql-connector-java-8.0.19.jar!/:8.0.19]
+	at com.mysql.cj.NativeSession.connect(NativeSession.java:144) ~[mysql-connector-java-8.0.19.jar!/:8.0.19]
+	at com.mysql.cj.jdbc.ConnectionImpl.connectWithRetries(ConnectionImpl.java:850) ~[mysql-connector-java-8.0.19.jar!/:8.0.19]
+	... 120 common frames omitted
+Caused by: java.net.ConnectException: Connection refused (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method) ~[na:1.8.0_111]
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350) ~[na:1.8.0_111]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206) ~[na:1.8.0_111]
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188) ~[na:1.8.0_111]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[na:1.8.0_111]
+	at java.net.Socket.connect(Socket.java:589) ~[na:1.8.0_111]
+	at com.mysql.cj.protocol.StandardSocketFactory.connect(StandardSocketFactory.java:155) ~[mysql-connector-java-8.0.19.jar!/:8.0.19]
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:65) ~[mysql-connector-java-8.0.19.jar!/:8.0.19]
+	... 122 common frames omitted
+
+2020-06-17 08:24:12.654  INFO 16 --- [http-nio-8080-exec-2] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2020-06-17 08:24:12.672 ERROR 16 --- [http-nio-8080-exec-2] c.j.j.s.WeixinSwipperServiceImpl         : nested exception is org.apache.ibatis.exceptions.PersistenceException: 
+### Error querying database.  Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLNonTransientConnectionException: Could not create connection to database server. Attempted reconnect 3 times. Giving up.
+### The error may exist in com/jiamu/jiamu001/mapper/WeixinSwipperMapper.java (best guess)
+### The error may involve com.jiamu.jiamu001.mapper.WeixinSwipperMapper.getSwipper
+### The error occurred while executing a query
+### Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLNonTransientConnectionException: Could not create connection to database server. Attempted reconnect 3 times. Giving up.
+2020-06-17 08:24:16.661 ERROR 16 --- [Druid-ConnectionPool-Create-260836246] com.alibaba.druid.pool.DruidDataSource   : create connection SQLException, url: jdbc:mysql://127.0.0.1:12400/jiamu?autoReconnect=true&useUnicode=true&characterEncoding=utf-8&allowMultiQueries=true&zeroDateTimeBehavior=convertToNull&useSSL=false, errorCode 0, state 08001
+
+java.sql.SQLNonTransientConnectionException: Could not create connection to database server. Attempted reconnect 3 times. Giving up.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:110) ~[mysql-connector-java-8.0.19.jar!/:8.0.19]
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97) ~[mysql-connector-java-8.0.19.jar!/:8.0.19]
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:89) ~[mysql-connector-java-8.0.19.jar!/:8.0.19]
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:63) ~[mysql-connector-java-8.0.19.jar!/:8.0.19]
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:73) ~[mysql-connector-java-8.0.19.jar!/:8.0.19]
+	at com.mysql.cj.jdbc.ConnectionImpl.connectWithRetries(ConnectionImpl.java:906) ~[mysql-connector-java-8.0.19.jar!/:8.0.19]
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:831) ~[mysql-connector-java-8.0.19.jar!/:8.0.19]
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:456) ~[mysql-connector-java-8.0.19.jar!/:8.0.19]
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:246) ~[mysql-connector-java-8.0.19.jar!/:8.0.19]
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:197) ~[mysql-connector-java-8.0.19.jar!/:8.0.19]
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:156) ~[druid-1.1.22.jar!/:1.1.22]
+	at com.alibaba.druid.filter.FilterAdapter.connection_connect(FilterAdapter.java:787) ~[druid-1.1.22.jar!/:1.1.22]
+	at com.alibaba.druid.filter.FilterEventAdapter.connection_connect(FilterEventAdapter.java:38) ~[druid-1.1.22.jar!/:1.1.22]
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:150) ~[druid-1.1.22.jar!/:1.1.22]
+	at com.alibaba.druid.filter.FilterAdapter.connection_connect(FilterAdapter.java:787) ~[druid-1.1.22.jar!/:1.1.22]
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:150) ~[druid-1.1.22.jar!/:1.1.22]
+	at com.alibaba.druid.filter.stat.StatFilter.connection_connect(StatFilter.java:218) ~[druid-1.1.22.jar!/:1.1.22]
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:150) ~[druid-1.1.22.jar!/:1.1.22]
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1646) ~[druid-1.1.22.jar!/:1.1.22]
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1710) ~[druid-1.1.22.jar!/:1.1.22]
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2779) ~[druid-1.1.22.jar!/:1.1.22]
+Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[na:1.8.0_111]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) ~[na:1.8.0_111]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[na:1.8.0_111]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423) ~[na:1.8.0_111]
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61) ~[mysql-connector-java-8.0.19.jar!/:8.0.19]
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105) ~[mysql-connector-java-8.0.19.jar!/:8.0.19]
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:151) ~[mysql-connector-java-8.0.19.jar!/:8.0.19]
+	at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:167) ~[mysql-connector-java-8.0.19.jar!/:8.0.19]
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:91) ~[mysql-connector-java-8.0.19.jar!/:8.0.19]
+	at com.mysql.cj.NativeSession.connect(NativeSession.java:144) ~[mysql-connector-java-8.0.19.jar!/:8.0.19]
+	at com.mysql.cj.jdbc.ConnectionImpl.connectWithRetries(ConnectionImpl.java:850) ~[mysql-connector-java-8.0.19.jar!/:8.0.19]
+	... 15 common frames omitted
+Caused by: java.net.ConnectException: Connection refused (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method) ~[na:1.8.0_111]
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350) ~[na:1.8.0_111]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206) ~[na:1.8.0_111]
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188) ~[na:1.8.0_111]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[na:1.8.0_111]
+	at java.net.Socket.connect(Socket.java:589) ~[na:1.8.0_111]
+	at com.mysql.cj.protocol.StandardSocketFactory.connect(StandardSocketFactory.java:155) ~[mysql-connector-java-8.0.19.jar!/:8.0.19]
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:65) ~[mysql-connector-java-8.0.19.jar!/:8.0.19]
+	... 17 common frames omitted
+
+2020-06-17 08:24:20.646 ERROR 16 --- [Druid-ConnectionPool-Create-260836246] com.alibaba.druid.pool.DruidDataSource   : create connection SQLException, url: jdbc:mysql://127.0.0.1:12400/jiamu?autoReconnect=true&useUnicode=true&characterEncoding=utf-8&allowMultiQueries=true&zeroDateTimeBehavior=convertToNull&useSSL=false, errorCode 0, state 08001
+
+java.sql.SQLNonTransientConnectionException: Could not create connection to database server. Attempted reconnect 3 times. Giving up.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:110) ~[mysql-connector-java-8.0.19.jar!/:8.0.19]
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97) ~[mysql-connector-java-8.0.19.jar!/:8.0.19]
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:89) ~[mysql-connector-java-8.0.19.jar!/:8.0.19]
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:63) ~[mysql-connector-java-8.0.19.jar!/:8.0.19]
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:73) ~[mysql-connector-java-8.0.19.jar!/:8.0.19]
+	at com.mysql.cj.jdbc.ConnectionImpl.connectWithRetries(ConnectionImpl.java:906) ~[mysql-connector-java-8.0.19.jar!/:8.0.19]
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:831) ~[mysql-connector-java-8.0.19.jar!/:8.0.19]
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:456) ~[mysql-connector-java-8.0.19.jar!/:8.0.19]
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:246) ~[mysql-connector-java-8.0.19.jar!/:8.0.19]
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:197) ~[mysql-connector-java-8.0.19.jar!/:8.0.19]
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:156) ~[druid-1.1.22.jar!/:1.1.22]
+	at com.alibaba.druid.filter.FilterAdapter.connection_connect(FilterAdapter.java:787) ~[druid-1.1.22.jar!/:1.1.22]
+	at com.alibaba.druid.filter.FilterEventAdapter.connection_connect(FilterEventAdapter.java:38) ~[druid-1.1.22.jar!/:1.1.22]
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:150) ~[druid-1.1.22.jar!/:1.1.22]
+	at com.alibaba.druid.filter.FilterAdapter.connection_connect(FilterAdapter.java:787) ~[druid-1.1.22.jar!/:1.1.22]
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:150) ~[druid-1.1.22.jar!/:1.1.22]
+	at com.alibaba.druid.filter.stat.StatFilter.connection_connect(StatFilter.java:218) ~[druid-1.1.22.jar!/:1.1.22]
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:150) ~[druid-1.1.22.jar!/:1.1.22]
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1646) ~[druid-1.1.22.jar!/:1.1.22]
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1710) ~[druid-1.1.22.jar!/:1.1.22]
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2779) ~[druid-1.1.22.jar!/:1.1.22]
+Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[na:1.8.0_111]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) ~[na:1.8.0_111]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[na:1.8.0_111]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423) ~[na:1.8.0_111]
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61) ~[mysql-connector-java-8.0.19.jar!/:8.0.19]
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105) ~[mysql-connector-java-8.0.19.jar!/:8.0.19]
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:151) ~[mysql-connector-java-8.0.19.jar!/:8.0.19]
+	at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:167) ~[mysql-connector-java-8.0.19.jar!/:8.0.19]
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:91) ~[mysql-connector-java-8.0.19.jar!/:8.0.19]
+	at com.mysql.cj.NativeSession.connect(NativeSession.java:144) ~[mysql-connector-java-8.0.19.jar!/:8.0.19]
+	at com.mysql.cj.jdbc.ConnectionImpl.connectWithRetries(ConnectionImpl.java:850) ~[mysql-connector-java-8.0.19.jar!/:8.0.19]
+	... 15 common frames omitted
+Caused by: java.net.ConnectException: Connection refused (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method) ~[na:1.8.0_111]
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350) ~[na:1.8.0_111]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206) ~[na:1.8.0_111]
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188) ~[na:1.8.0_111]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[na:1.8.0_111]
+	at java.net.Socket.connect(Socket.java:589) ~[na:1.8.0_111]
+	at com.mysql.cj.protocol.StandardSocketFactory.connect(StandardSocketFactory.java:155) ~[mysql-connector-java-8.0.19.jar!/:8.0.19]
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:65) ~[mysql-connector-java-8.0.19.jar!/:8.0.19]
+	... 17 common frames omitted
+
+2020-06-17 08:24:20.650  INFO 16 --- [Druid-ConnectionPool-Create-260836246] c.a.druid.pool.DruidAbstractDataSource   : {dataSource-1} failContinuous is true
+2020-06-17 08:24:25.169 ERROR 16 --- [Druid-ConnectionPool-Create-260836246] com.alibaba.druid.pool.DruidDataSource   : create connection SQLException, url: jdbc:mysql://127.0.0.1:12400/jiamu?autoReconnect=true&useUnicode=true&characterEncoding=utf-8&allowMultiQueries=true&zeroDateTimeBehavior=convertToNull&useSSL=false, errorCode 0, state 08001
+
+java.sql.SQLNonTransientConnectionException: Could not create connection to database server. Attempted reconnect 3 times. Giving up.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:110) ~[mysql-connector-java-8.0.19.jar!/:8.0.19]
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97) ~[mysql-connector-java-8.0.19.jar!/:8.0.19]
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:89) ~[mysql-connector-java-8.0.19.jar!/:8.0.19]
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:63) ~[mysql-connector-java-8.0.19.jar!/:8.0.19]
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:73) ~[mysql-connector-java-8.0.19.jar!/:8.0.19]
+	at com.mysql.cj.jdbc.ConnectionImpl.connectWithRetries(ConnectionImpl.java:906) ~[mysql-connector-java-8.0.19.jar!/:8.0.19]
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:831) ~[mysql-connector-java-8.0.19.jar!/:8.0.19]
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:456) ~[mysql-connector-java-8.0.19.jar!/:8.0.19]
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:246) ~[mysql-connector-java-8.0.19.jar!/:8.0.19]
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:197) ~[mysql-connector-java-8.0.19.jar!/:8.0.19]
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:156) ~[druid-1.1.22.jar!/:1.1.22]
+	at com.alibaba.druid.filter.FilterAdapter.connection_connect(FilterAdapter.java:787) ~[druid-1.1.22.jar!/:1.1.22]
+	at com.alibaba.druid.filter.FilterEventAdapter.connection_connect(FilterEventAdapter.java:38) ~[druid-1.1.22.jar!/:1.1.22]
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:150) ~[druid-1.1.22.jar!/:1.1.22]
+	at com.alibaba.druid.filter.FilterAdapter.connection_connect(FilterAdapter.java:787) ~[druid-1.1.22.jar!/:1.1.22]
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:150) ~[druid-1.1.22.jar!/:1.1.22]
+	at com.alibaba.druid.filter.stat.StatFilter.connection_connect(StatFilter.java:218) ~[druid-1.1.22.jar!/:1.1.22]
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:150) ~[druid-1.1.22.jar!/:1.1.22]
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1646) ~[druid-1.1.22.jar!/:1.1.22]
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1710) ~[druid-1.1.22.jar!/:1.1.22]
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2779) ~[druid-1.1.22.jar!/:1.1.22]
+Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[na:1.8.0_111]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) ~[na:1.8.0_111]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[na:1.8.0_111]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423) ~[na:1.8.0_111]
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61) ~[mysql-connector-java-8.0.19.jar!/:8.0.19]
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105) ~[mysql-connector-java-8.0.19.jar!/:8.0.19]
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:151) ~[mysql-connector-java-8.0.19.jar!/:8.0.19]
+	at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:167) ~[mysql-connector-java-8.0.19.jar!/:8.0.19]
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:91) ~[mysql-connector-java-8.0.19.jar!/:8.0.19]
+	at com.mysql.cj.NativeSession.connect(NativeSession.java:144) ~[mysql-connector-java-8.0.19.jar!/:8.0.19]
+	at com.mysql.cj.jdbc.ConnectionImpl.connectWithRetries(ConnectionImpl.java:850) ~[mysql-connector-java-8.0.19.jar!/:8.0.19]
+	... 15 common frames omitted
+Caused by: java.net.ConnectException: Connection refused (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method) ~[na:1.8.0_111]
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350) ~[na:1.8.0_111]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206) ~[na:1.8.0_111]
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188) ~[na:1.8.0_111]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[na:1.8.0_111]
+	at java.net.Socket.connect(Socket.java:589) ~[na:1.8.0_111]
+	at com.mysql.cj.protocol.StandardSocketFactory.connect(StandardSocketFactory.java:155) ~[mysql-connector-java-8.0.19.jar!/:8.0.19]
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:65) ~[mysql-connector-java-8.0.19.jar!/:8.0.19]
+	... 17 common frames omitted
+
+2020-06-17 08:24:29.687 ERROR 16 --- [Druid-ConnectionPool-Create-260836246] com.alibaba.druid.pool.DruidDataSource   : create connection SQLException, url: jdbc:mysql://127.0.0.1:12400/jiamu?autoReconnect=true&useUnicode=true&characterEncoding=utf-8&allowMultiQueries=true&zeroDateTimeBehavior=convertToNull&useSSL=false, errorCode 0, state 08001
+
+java.sql.SQLNonTransientConnectionException: Could not create connection to database server. Attempted reconnect 3 times. Giving up.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:110) ~[mysql-connector-java-8.0.19.jar!/:8.0.19]
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97) ~[mysql-connector-java-8.0.19.jar!/:8.0.19]
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:89) ~[mysql-connector-java-8.0.19.jar!/:8.0.19]
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:63) ~[mysql-connector-java-8.0.19.jar!/:8.0.19]
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:73) ~[mysql-connector-java-8.0.19.jar!/:8.0.19]
+	at com.mysql.cj.jdbc.ConnectionImpl.connectWithRetries(ConnectionImpl.java:906) ~[mysql-connector-java-8.0.19.jar!/:8.0.19]
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:831) ~[mysql-connector-java-8.0.19.jar!/:8.0.19]
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:456) ~[mysql-connector-java-8.0.19.jar!/:8.0.19]
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:246) ~[mysql-connector-java-8.0.19.jar!/:8.0.19]
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:197) ~[mysql-connector-java-8.0.19.jar!/:8.0.19]
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:156) ~[druid-1.1.22.jar!/:1.1.22]
+	at com.alibaba.druid.filter.FilterAdapter.connection_connect(FilterAdapter.java:787) ~[druid-1.1.22.jar!/:1.1.22]
+	at com.alibaba.druid.filter.FilterEventAdapter.connection_connect(FilterEventAdapter.java:38) ~[druid-1.1.22.jar!/:1.1.22]
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:150) ~[druid-1.1.22.jar!/:1.1.22]
+	at com.alibaba.druid.filter.FilterAdapter.connection_connect(FilterAdapter.java:787) ~[druid-1.1.22.jar!/:1.1.22]
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:150) ~[druid-1.1.22.jar!/:1.1.22]
+	at com.alibaba.druid.filter.stat.StatFilter.connection_connect(StatFilter.java:218) ~[druid-1.1.22.jar!/:1.1.22]
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:150) ~[druid-1.1.22.jar!/:1.1.22]
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1646) ~[druid-1.1.22.jar!/:1.1.22]
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1710) ~[druid-1.1.22.jar!/:1.1.22]
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2779) ~[druid-1.1.22.jar!/:1.1.22]
+Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[na:1.8.0_111]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) ~[na:1.8.0_111]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[na:1.8.0_111]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423) ~[na:1.8.0_111]
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61) ~[mysql-connector-java-8.0.19.jar!/:8.0.19]
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105) ~[mysql-connector-java-8.0.19.jar!/:8.0.19]
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:151) ~[mysql-connector-java-8.0.19.jar!/:8.0.19]
+	at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:167) ~[mysql-connector-java-8.0.19.jar!/:8.0.19]
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:91) ~[mysql-connector-java-8.0.19.jar!/:8.0.19]
+	at com.mysql.cj.NativeSession.connect(NativeSession.java:144) ~[mysql-connector-java-8.0.19.jar!/:8.0.19]
+	at com.mysql.cj.jdbc.ConnectionImpl.connectWithRetries(ConnectionImpl.java:850) ~[mysql-connector-java-8.0.19.jar!/:8.0.19]
+	... 15 common frames omitted
+Caused by: java.net.ConnectException: Connection refused (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method) ~[na:1.8.0_111]
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350) ~[na:1.8.0_111]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206) ~[na:1.8.0_111]
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188) ~[na:1.8.0_111]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[na:1.8.0_111]
+	at java.net.Socket.connect(Socket.java:589) ~[na:1.8.0_111]
+	at com.mysql.cj.protocol.StandardSocketFactory.connect(StandardSocketFactory.java:155) ~[mysql-connector-java-8.0.19.jar!/:8.0.19]
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:65) ~[mysql-connector-java-8.0.19.jar!/:8.0.19]
+	... 17 common frames omitted
+
+2020-06-17 08:24:34.210 ERROR 16 --- [Druid-ConnectionPool-Create-260836246] com.alibaba.druid.pool.DruidDataSource   : create connection SQLException, url: jdbc:mysql://127.0.0.1:12400/jiamu?autoReconnect=true&useUnicode=true&characterEncoding=utf-8&allowMultiQueries=true&zeroDateTimeBehavior=convertToNull&useSSL=false, errorCode 0, state 08001
+
+java.sql.SQLNonTransientConnectionException: Could not create connection to database server. Attempted reconnect 3 times. Giving up.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:110) ~[mysql-connector-java-8.0.19.jar!/:8.0.19]
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97) ~[mysql-connector-java-8.0.19.jar!/:8.0.19]
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:89) ~[mysql-connector-java-8.0.19.jar!/:8.0.19]
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:63) ~[mysql-connector-java-8.0.19.jar!/:8.0.19]
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:73) ~[mysql-connector-java-8.0.19.jar!/:8.0.19]
+	at com.mysql.cj.jdbc.ConnectionImpl.connectWithRetries(ConnectionImpl.java:906) ~[mysql-connector-java-8.0.19.jar!/:8.0.19]
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:831) ~[mysql-connector-java-8.0.19.jar!/:8.0.19]
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:456) ~[mysql-connector-java-8.0.19.jar!/:8.0.19]
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:246) ~[mysql-connector-java-8.0.19.jar!/:8.0.19]
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:197) ~[mysql-connector-java-8.0.19.jar!/:8.0.19]
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:156) ~[druid-1.1.22.jar!/:1.1.22]
+	at com.alibaba.druid.filter.FilterAdapter.connection_connect(FilterAdapter.java:787) ~[druid-1.1.22.jar!/:1.1.22]
+	at com.alibaba.druid.filter.FilterEventAdapter.connection_connect(FilterEventAdapter.java:38) ~[druid-1.1.22.jar!/:1.1.22]
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:150) ~[druid-1.1.22.jar!/:1.1.22]
+	at com.alibaba.druid.filter.FilterAdapter.connection_connect(FilterAdapter.java:787) ~[druid-1.1.22.jar!/:1.1.22]
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:150) ~[druid-1.1.22.jar!/:1.1.22]
+	at com.alibaba.druid.filter.stat.StatFilter.connection_connect(StatFilter.java:218) ~[druid-1.1.22.jar!/:1.1.22]
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:150) ~[druid-1.1.22.jar!/:1.1.22]
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1646) ~[druid-1.1.22.jar!/:1.1.22]
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1710) ~[druid-1.1.22.jar!/:1.1.22]
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2779) ~[druid-1.1.22.jar!/:1.1.22]
+Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.GeneratedConstructorAccessor47.newInstance(Unknown Source) ~[na:na]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[na:1.8.0_111]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423) ~[na:1.8.0_111]
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61) ~[mysql-connector-java-8.0.19.jar!/:8.0.19]
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105) ~[mysql-connector-java-8.0.19.jar!/:8.0.19]
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:151) ~[mysql-connector-java-8.0.19.jar!/:8.0.19]
+	at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:167) ~[mysql-connector-java-8.0.19.jar!/:8.0.19]
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:91) ~[mysql-connector-java-8.0.19.jar!/:8.0.19]
+	at com.mysql.cj.NativeSession.connect(NativeSession.java:144) ~[mysql-connector-java-8.0.19.jar!/:8.0.19]
+	at com.mysql.cj.jdbc.ConnectionImpl.connectWithRetries(ConnectionImpl.java:850) ~[mysql-connector-java-8.0.19.jar!/:8.0.19]
+	... 15 common frames omitted
+Caused by: java.net.ConnectException: Connection refused (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method) ~[na:1.8.0_111]
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350) ~[na:1.8.0_111]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206) ~[na:1.8.0_111]
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188) ~[na:1.8.0_111]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[na:1.8.0_111]
+	at java.net.Socket.connect(Socket.java:589) ~[na:1.8.0_111]
+	at com.mysql.cj.protocol.StandardSocketFactory.connect(StandardSocketFactory.java:155) ~[mysql-connector-java-8.0.19.jar!/:8.0.19]
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:65) ~[mysql-connector-java-8.0.19.jar!/:8.0.19]
+	... 17 common frames omitted
+
+2020-06-17 08:24:38.732 ERROR 16 --- [Druid-ConnectionPool-Create-260836246] com.alibaba.druid.pool.DruidDataSource   : create connection SQLException, url: jdbc:mysql://127.0.0.1:12400/jiamu?autoReconnect=true&useUnicode=true&characterEncoding=utf-8&allowMultiQueries=true&zeroDateTimeBehavior=convertToNull&useSSL=false, errorCode 0, state 08001
+
+java.sql.SQLNonTransientConnectionException: Could not create connection to database server. Attempted reconnect 3 times. Giving up.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:110) ~[mysql-connector-java-8.0.19.jar!/:8.0.19]
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97) ~[mysql-connector-java-8.0.19.jar!/:8.0.19]
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:89) ~[mysql-connector-java-8.0.19.jar!/:8.0.19]
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:63) ~[mysql-connector-java-8.0.19.jar!/:8.0.19]
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:73) ~[mysql-connector-java-8.0.19.jar!/:8.0.19]
+	at com.mysql.cj.jdbc.ConnectionImpl.connectWithRetries(ConnectionImpl.java:906) ~[mysql-connector-java-8.0.19.jar!/:8.0.19]
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:831) ~[mysql-connector-java-8.0.19.jar!/:8.0.19]
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:456) ~[mysql-connector-java-8.0.19.jar!/:8.0.19]
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:246) ~[mysql-connector-java-8.0.19.jar!/:8.0.19]
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:197) ~[mysql-connector-java-8.0.19.jar!/:8.0.19]
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:156) ~[druid-1.1.22.jar!/:1.1.22]
+	at com.alibaba.druid.filter.FilterAdapter.connection_connect(FilterAdapter.java:787) ~[druid-1.1.22.jar!/:1.1.22]
+	at com.alibaba.druid.filter.FilterEventAdapter.connection_connect(FilterEventAdapter.java:38) ~[druid-1.1.22.jar!/:1.1.22]
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:150) ~[druid-1.1.22.jar!/:1.1.22]
+	at com.alibaba.druid.filter.FilterAdapter.connection_connect(FilterAdapter.java:787) ~[druid-1.1.22.jar!/:1.1.22]
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:150) ~[druid-1.1.22.jar!/:1.1.22]
+	at com.alibaba.druid.filter.stat.StatFilter.connection_connect(StatFilter.java:218) ~[druid-1.1.22.jar!/:1.1.22]
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:150) ~[druid-1.1.22.jar!/:1.1.22]
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1646) ~[druid-1.1.22.jar!/:1.1.22]
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1710) ~[druid-1.1.22.jar!/:1.1.22]
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2779) ~[druid-1.1.22.jar!/:1.1.22]
+Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.GeneratedConstructorAccessor47.newInstance(Unknown Source) ~[na:na]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[na:1.8.0_111]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423) ~[na:1.8.0_111]
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61) ~[mysql-connector-java-8.0.19.jar!/:8.0.19]
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105) ~[mysql-connector-java-8.0.19.jar!/:8.0.19]
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:151) ~[mysql-connector-java-8.0.19.jar!/:8.0.19]
+	at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:167) ~[mysql-connector-java-8.0.19.jar!/:8.0.19]
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:91) ~[mysql-connector-java-8.0.19.jar!/:8.0.19]
+	at com.mysql.cj.NativeSession.connect(NativeSession.java:144) ~[mysql-connector-java-8.0.19.jar!/:8.0.19]
+	at com.mysql.cj.jdbc.ConnectionImpl.connectWithRetries(ConnectionImpl.java:850) ~[mysql-connector-java-8.0.19.jar!/:8.0.19]
+	... 15 common frames omitted
+Caused by: java.net.ConnectException: Connection refused (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method) ~[na:1.8.0_111]
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350) ~[na:1.8.0_111]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206) ~[na:1.8.0_111]
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188) ~[na:1.8.0_111]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[na:1.8.0_111]
+	at java.net.Socket.connect(Socket.java:589) ~[na:1.8.0_111]
+	at com.mysql.cj.protocol.StandardSocketFactory.connect(StandardSocketFactory.java:155) ~[mysql-connector-java-8.0.19.jar!/:8.0.19]
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:65) ~[mysql-connector-java-8.0.19.jar!/:8.0.19]
+	... 17 common frames omitted
+
+2020-06-17 08:24:43.259 ERROR 16 --- [Druid-ConnectionPool-Create-260836246] com.alibaba.druid.pool.DruidDataSource   : create connection SQLException, url: jdbc:mysql://127.0.0.1:12400/jiamu?autoReconnect=true&useUnicode=true&characterEncoding=utf-8&allowMultiQueries=true&zeroDateTimeBehavior=convertToNull&useSSL=false, errorCode 0, state 08001
+
+java.sql.SQLNonTransientConnectionException: Could not create connection to database server. Attempted reconnect 3 times. Giving up.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:110) ~[mysql-connector-java-8.0.19.jar!/:8.0.19]
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97) ~[mysql-connector-java-8.0.19.jar!/:8.0.19]
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:89) ~[mysql-connector-java-8.0.19.jar!/:8.0.19]
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:63) ~[mysql-connector-java-8.0.19.jar!/:8.0.19]
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:73) ~[mysql-connector-java-8.0.19.jar!/:8.0.19]
+	at com.mysql.cj.jdbc.ConnectionImpl.connectWithRetries(ConnectionImpl.java:906) ~[mysql-connector-java-8.0.19.jar!/:8.0.19]
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:831) ~[mysql-connector-java-8.0.19.jar!/:8.0.19]
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:456) ~[mysql-connector-java-8.0.19.jar!/:8.0.19]
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:246) ~[mysql-connector-java-8.0.19.jar!/:8.0.19]
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:197) ~[mysql-connector-java-8.0.19.jar!/:8.0.19]
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:156) ~[druid-1.1.22.jar!/:1.1.22]
+	at com.alibaba.druid.filter.FilterAdapter.connection_connect(FilterAdapter.java:787) ~[druid-1.1.22.jar!/:1.1.22]
+	at com.alibaba.druid.filter.FilterEventAdapter.connection_connect(FilterEventAdapter.java:38) ~[druid-1.1.22.jar!/:1.1.22]
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:150) ~[druid-1.1.22.jar!/:1.1.22]
+	at com.alibaba.druid.filter.FilterAdapter.connection_connect(FilterAdapter.java:787) ~[druid-1.1.22.jar!/:1.1.22]
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:150) ~[druid-1.1.22.jar!/:1.1.22]
+	at com.alibaba.druid.filter.stat.StatFilter.connection_connect(StatFilter.java:218) ~[druid-1.1.22.jar!/:1.1.22]
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:150) ~[druid-1.1.22.jar!/:1.1.22]
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1646) ~[druid-1.1.22.jar!/:1.1.22]
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1710) ~[druid-1.1.22.jar!/:1.1.22]
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2779) ~[druid-1.1.22.jar!/:1.1.22]
+Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.GeneratedConstructorAccessor47.newInstance(Unknown Source) ~[na:na]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[na:1.8.0_111]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423) ~[na:1.8.0_111]
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61) ~[mysql-connector-java-8.0.19.jar!/:8.0.19]
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105) ~[mysql-connector-java-8.0.19.jar!/:8.0.19]
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:151) ~[mysql-connector-java-8.0.19.jar!/:8.0.19]
+	at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:167) ~[mysql-connector-java-8.0.19.jar!/:8.0.19]
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:91) ~[mysql-connector-java-8.0.19.jar!/:8.0.19]
+	at com.mysql.cj.NativeSession.connect(NativeSession.java:144) ~[mysql-connector-java-8.0.19.jar!/:8.0.19]
+	at com.mysql.cj.jdbc.ConnectionImpl.connectWithRetries(ConnectionImpl.java:850) ~[mysql-connector-java-8.0.19.jar!/:8.0.19]
+	... 15 common frames omitted
+Caused by: java.net.ConnectException: Connection refused (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method) ~[na:1.8.0_111]
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350) ~[na:1.8.0_111]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206) ~[na:1.8.0_111]
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188) ~[na:1.8.0_111]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[na:1.8.0_111]
+	at java.net.Socket.connect(Socket.java:589) ~[na:1.8.0_111]
+	at com.mysql.cj.protocol.StandardSocketFactory.connect(StandardSocketFactory.java:155) ~[mysql-connector-java-8.0.19.jar!/:8.0.19]
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:65) ~[mysql-connector-java-8.0.19.jar!/:8.0.19]
+	... 17 common frames omitted
+
+2020-06-17 08:24:47.739 ERROR 16 --- [Druid-ConnectionPool-Create-260836246] com.alibaba.druid.pool.DruidDataSource   : create connection SQLException, url: jdbc:mysql://127.0.0.1:12400/jiamu?autoReconnect=true&useUnicode=true&characterEncoding=utf-8&allowMultiQueries=true&zeroDateTimeBehavior=convertToNull&useSSL=false, errorCode 0, state 08001
+
+java.sql.SQLNonTransientConnectionException: Could not create connection to database server. Attempted reconnect 3 times. Giving up.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:110) ~[mysql-connector-java-8.0.19.jar!/:8.0.19]
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97) ~[mysql-connector-java-8.0.19.jar!/:8.0.19]
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:89) ~[mysql-connector-java-8.0.19.jar!/:8.0.19]
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:63) ~[mysql-connector-java-8.0.19.jar!/:8.0.19]
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:73) ~[mysql-connector-java-8.0.19.jar!/:8.0.19]
+	at com.mysql.cj.jdbc.ConnectionImpl.connectWithRetries(ConnectionImpl.java:906) ~[mysql-connector-java-8.0.19.jar!/:8.0.19]
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:831) ~[mysql-connector-java-8.0.19.jar!/:8.0.19]
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:456) ~[mysql-connector-java-8.0.19.jar!/:8.0.19]
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:246) ~[mysql-connector-java-8.0.19.jar!/:8.0.19]
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:197) ~[mysql-connector-java-8.0.19.jar!/:8.0.19]
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:156) ~[druid-1.1.22.jar!/:1.1.22]
+	at com.alibaba.druid.filter.FilterAdapter.connection_connect(FilterAdapter.java:787) ~[druid-1.1.22.jar!/:1.1.22]
+	at com.alibaba.druid.filter.FilterEventAdapter.connection_connect(FilterEventAdapter.java:38) ~[druid-1.1.22.jar!/:1.1.22]
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:150) ~[druid-1.1.22.jar!/:1.1.22]
+	at com.alibaba.druid.filter.FilterAdapter.connection_connect(FilterAdapter.java:787) ~[druid-1.1.22.jar!/:1.1.22]
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:150) ~[druid-1.1.22.jar!/:1.1.22]
+	at com.alibaba.druid.filter.stat.StatFilter.connection_connect(StatFilter.java:218) ~[druid-1.1.22.jar!/:1.1.22]
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:150) ~[druid-1.1.22.jar!/:1.1.22]
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1646) ~[druid-1.1.22.jar!/:1.1.22]
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1710) ~[druid-1.1.22.jar!/:1.1.22]
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2779) ~[druid-1.1.22.jar!/:1.1.22]
+Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.GeneratedConstructorAccessor47.newInstance(Unknown Source) ~[na:na]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[na:1.8.0_111]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423) ~[na:1.8.0_111]
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61) ~[mysql-connector-java-8.0.19.jar!/:8.0.19]
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105) ~[mysql-connector-java-8.0.19.jar!/:8.0.19]
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:151) ~[mysql-connector-java-8.0.19.jar!/:8.0.19]
+	at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:167) ~[mysql-connector-java-8.0.19.jar!/:8.0.19]
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:91) ~[mysql-connector-java-8.0.19.jar!/:8.0.19]
+	at com.mysql.cj.NativeSession.connect(NativeSession.java:144) ~[mysql-connector-java-8.0.19.jar!/:8.0.19]
+	at com.mysql.cj.jdbc.ConnectionImpl.connectWithRetries(ConnectionImpl.java:850) ~[mysql-connector-java-8.0.19.jar!/:8.0.19]
+	... 15 common frames omitted
+Caused by: java.net.ConnectException: Connection refused (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method) ~[na:1.8.0_111]
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350) ~[na:1.8.0_111]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206) ~[na:1.8.0_111]
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188) ~[na:1.8.0_111]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[na:1.8.0_111]
+	at java.net.Socket.connect(Socket.java:589) ~[na:1.8.0_111]
+	at com.mysql.cj.protocol.StandardSocketFactory.connect(StandardSocketFactory.java:155) ~[mysql-connector-java-8.0.19.jar!/:8.0.19]
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:65) ~[mysql-connector-java-8.0.19.jar!/:8.0.19]
+	... 17 common frames omitted
+
+2020-06-17 08:24:52.254 ERROR 16 --- [Druid-ConnectionPool-Create-260836246] com.alibaba.druid.pool.DruidDataSource   : create connection SQLException, url: jdbc:mysql://127.0.0.1:12400/jiamu?autoReconnect=true&useUnicode=true&characterEncoding=utf-8&allowMultiQueries=true&zeroDateTimeBehavior=convertToNull&useSSL=false, errorCode 0, state 08001
+
+java.sql.SQLNonTransientConnectionException: Could not create connection to database server. Attempted reconnect 3 times. Giving up.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:110) ~[mysql-connector-java-8.0.19.jar!/:8.0.19]
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97) ~[mysql-connector-java-8.0.19.jar!/:8.0.19]
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:89) ~[mysql-connector-java-8.0.19.jar!/:8.0.19]
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:63) ~[mysql-connector-java-8.0.19.jar!/:8.0.19]
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:73) ~[mysql-connector-java-8.0.19.jar!/:8.0.19]
+	at com.mysql.cj.jdbc.ConnectionImpl.connectWithRetries(ConnectionImpl.java:906) ~[mysql-connector-java-8.0.19.jar!/:8.0.19]
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:831) ~[mysql-connector-java-8.0.19.jar!/:8.0.19]
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:456) ~[mysql-connector-java-8.0.19.jar!/:8.0.19]
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:246) ~[mysql-connector-java-8.0.19.jar!/:8.0.19]
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:197) ~[mysql-connector-java-8.0.19.jar!/:8.0.19]
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:156) ~[druid-1.1.22.jar!/:1.1.22]
+	at com.alibaba.druid.filter.FilterAdapter.connection_connect(FilterAdapter.java:787) ~[druid-1.1.22.jar!/:1.1.22]
+	at com.alibaba.druid.filter.FilterEventAdapter.connection_connect(FilterEventAdapter.java:38) ~[druid-1.1.22.jar!/:1.1.22]
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:150) ~[druid-1.1.22.jar!/:1.1.22]
+	at com.alibaba.druid.filter.FilterAdapter.connection_connect(FilterAdapter.java:787) ~[druid-1.1.22.jar!/:1.1.22]
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:150) ~[druid-1.1.22.jar!/:1.1.22]
+	at com.alibaba.druid.filter.stat.StatFilter.connection_connect(StatFilter.java:218) ~[druid-1.1.22.jar!/:1.1.22]
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:150) ~[druid-1.1.22.jar!/:1.1.22]
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1646) ~[druid-1.1.22.jar!/:1.1.22]
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1710) ~[druid-1.1.22.jar!/:1.1.22]
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2779) ~[druid-1.1.22.jar!/:1.1.22]
+Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.GeneratedConstructorAccessor47.newInstance(Unknown Source) ~[na:na]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[na:1.8.0_111]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423) ~[na:1.8.0_111]
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61) ~[mysql-connector-java-8.0.19.jar!/:8.0.19]
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105) ~[mysql-connector-java-8.0.19.jar!/:8.0.19]
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:151) ~[mysql-connector-java-8.0.19.jar!/:8.0.19]
+	at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:167) ~[mysql-connector-java-8.0.19.jar!/:8.0.19]
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:91) ~[mysql-connector-java-8.0.19.jar!/:8.0.19]
+	at com.mysql.cj.NativeSession.connect(NativeSession.java:144) ~[mysql-connector-java-8.0.19.jar!/:8.0.19]
+	at com.mysql.cj.jdbc.ConnectionImpl.connectWithRetries(ConnectionImpl.java:850) ~[mysql-connector-java-8.0.19.jar!/:8.0.19]
+	... 15 common frames omitted
+Caused by: java.net.ConnectException: Connection refused (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method) ~[na:1.8.0_111]
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350) ~[na:1.8.0_111]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206) ~[na:1.8.0_111]
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188) ~[na:1.8.0_111]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[na:1.8.0_111]
+	at java.net.Socket.connect(Socket.java:589) ~[na:1.8.0_111]
+	at com.mysql.cj.protocol.StandardSocketFactory.connect(StandardSocketFactory.java:155) ~[mysql-connector-java-8.0.19.jar!/:8.0.19]
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:65) ~[mysql-connector-java-8.0.19.jar!/:8.0.19]
+	... 17 common frames omitted
+
+2020-06-17 08:24:56.775 ERROR 16 --- [Druid-ConnectionPool-Create-260836246] com.alibaba.druid.pool.DruidDataSource   : create connection SQLException, url: jdbc:mysql://127.0.0.1:12400/jiamu?autoReconnect=true&useUnicode=true&characterEncoding=utf-8&allowMultiQueries=true&zeroDateTimeBehavior=convertToNull&useSSL=false, errorCode 0, state 08001
+
+java.sql.SQLNonTransientConnectionException: Could not create connection to database server. Attempted reconnect 3 times. Giving up.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:110) ~[mysql-connector-java-8.0.19.jar!/:8.0.19]
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97) ~[mysql-connector-java-8.0.19.jar!/:8.0.19]
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:89) ~[mysql-connector-java-8.0.19.jar!/:8.0.19]
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:63) ~[mysql-connector-java-8.0.19.jar!/:8.0.19]
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:73) ~[mysql-connector-java-8.0.19.jar!/:8.0.19]
+	at com.mysql.cj.jdbc.ConnectionImpl.connectWithRetries(ConnectionImpl.java:906) ~[mysql-connector-java-8.0.19.jar!/:8.0.19]
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:831) ~[mysql-connector-java-8.0.19.jar!/:8.0.19]
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:456) ~[mysql-connector-java-8.0.19.jar!/:8.0.19]
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:246) ~[mysql-connector-java-8.0.19.jar!/:8.0.19]
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:197) ~[mysql-connector-java-8.0.19.jar!/:8.0.19]
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:156) ~[druid-1.1.22.jar!/:1.1.22]
+	at com.alibaba.druid.filter.FilterAdapter.connection_connect(FilterAdapter.java:787) ~[druid-1.1.22.jar!/:1.1.22]
+	at com.alibaba.druid.filter.FilterEventAdapter.connection_connect(FilterEventAdapter.java:38) ~[druid-1.1.22.jar!/:1.1.22]
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:150) ~[druid-1.1.22.jar!/:1.1.22]
+	at com.alibaba.druid.filter.FilterAdapter.connection_connect(FilterAdapter.java:787) ~[druid-1.1.22.jar!/:1.1.22]
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:150) ~[druid-1.1.22.jar!/:1.1.22]
+	at com.alibaba.druid.filter.stat.StatFilter.connection_connect(StatFilter.java:218) ~[druid-1.1.22.jar!/:1.1.22]
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:150) ~[druid-1.1.22.jar!/:1.1.22]
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1646) ~[druid-1.1.22.jar!/:1.1.22]
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1710) ~[druid-1.1.22.jar!/:1.1.22]
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2779) ~[druid-1.1.22.jar!/:1.1.22]
+Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.GeneratedConstructorAccessor47.newInstance(Unknown Source) ~[na:na]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[na:1.8.0_111]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423) ~[na:1.8.0_111]
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61) ~[mysql-connector-java-8.0.19.jar!/:8.0.19]
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105) ~[mysql-connector-java-8.0.19.jar!/:8.0.19]
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:151) ~[mysql-connector-java-8.0.19.jar!/:8.0.19]
+	at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:167) ~[mysql-connector-java-8.0.19.jar!/:8.0.19]
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:91) ~[mysql-connector-java-8.0.19.jar!/:8.0.19]
+	at com.mysql.cj.NativeSession.connect(NativeSession.java:144) ~[mysql-connector-java-8.0.19.jar!/:8.0.19]
+	at com.mysql.cj.jdbc.ConnectionImpl.connectWithRetries(ConnectionImpl.java:850) ~[mysql-connector-java-8.0.19.jar!/:8.0.19]
+	... 15 common frames omitted
+Caused by: java.net.ConnectException: Connection refused (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method) ~[na:1.8.0_111]
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350) ~[na:1.8.0_111]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206) ~[na:1.8.0_111]
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188) ~[na:1.8.0_111]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[na:1.8.0_111]
+	at java.net.Socket.connect(Socket.java:589) ~[na:1.8.0_111]
+	at com.mysql.cj.protocol.StandardSocketFactory.connect(StandardSocketFactory.java:155) ~[mysql-connector-java-8.0.19.jar!/:8.0.19]
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:65) ~[mysql-connector-java-8.0.19.jar!/:8.0.19]
+	... 17 common frames omitted
+
+2020-06-17 08:25:01.294 ERROR 16 --- [Druid-ConnectionPool-Create-260836246] com.alibaba.druid.pool.DruidDataSource   : create connection SQLException, url: jdbc:mysql://127.0.0.1:12400/jiamu?autoReconnect=true&useUnicode=true&characterEncoding=utf-8&allowMultiQueries=true&zeroDateTimeBehavior=convertToNull&useSSL=false, errorCode 0, state 08001
+
+java.sql.SQLNonTransientConnectionException: Could not create connection to database server. Attempted reconnect 3 times. Giving up.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:110) ~[mysql-connector-java-8.0.19.jar!/:8.0.19]
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97) ~[mysql-connector-java-8.0.19.jar!/:8.0.19]
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:89) ~[mysql-connector-java-8.0.19.jar!/:8.0.19]
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:63) ~[mysql-connector-java-8.0.19.jar!/:8.0.19]
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:73) ~[mysql-connector-java-8.0.19.jar!/:8.0.19]
+	at com.mysql.cj.jdbc.ConnectionImpl.connectWithRetries(ConnectionImpl.java:906) ~[mysql-connector-java-8.0.19.jar!/:8.0.19]
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:831) ~[mysql-connector-java-8.0.19.jar!/:8.0.19]
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:456) ~[mysql-connector-java-8.0.19.jar!/:8.0.19]
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:246) ~[mysql-connector-java-8.0.19.jar!/:8.0.19]
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:197) ~[mysql-connector-java-8.0.19.jar!/:8.0.19]
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:156) ~[druid-1.1.22.jar!/:1.1.22]
+	at com.alibaba.druid.filter.FilterAdapter.connection_connect(FilterAdapter.java:787) ~[druid-1.1.22.jar!/:1.1.22]
+	at com.alibaba.druid.filter.FilterEventAdapter.connection_connect(FilterEventAdapter.java:38) ~[druid-1.1.22.jar!/:1.1.22]
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:150) ~[druid-1.1.22.jar!/:1.1.22]
+	at com.alibaba.druid.filter.FilterAdapter.connection_connect(FilterAdapter.java:787) ~[druid-1.1.22.jar!/:1.1.22]
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:150) ~[druid-1.1.22.jar!/:1.1.22]
+	at com.alibaba.druid.filter.stat.StatFilter.connection_connect(StatFilter.java:218) ~[druid-1.1.22.jar!/:1.1.22]
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:150) ~[druid-1.1.22.jar!/:1.1.22]
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1646) ~[druid-1.1.22.jar!/:1.1.22]
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1710) ~[druid-1.1.22.jar!/:1.1.22]
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2779) ~[druid-1.1.22.jar!/:1.1.22]
+Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.GeneratedConstructorAccessor47.newInstance(Unknown Source) ~[na:na]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[na:1.8.0_111]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423) ~[na:1.8.0_111]
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61) ~[mysql-connector-java-8.0.19.jar!/:8.0.19]
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105) ~[mysql-connector-java-8.0.19.jar!/:8.0.19]
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:151) ~[mysql-connector-java-8.0.19.jar!/:8.0.19]
+	at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:167) ~[mysql-connector-java-8.0.19.jar!/:8.0.19]
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:91) ~[mysql-connector-java-8.0.19.jar!/:8.0.19]
+	at com.mysql.cj.NativeSession.connect(NativeSession.java:144) ~[mysql-connector-java-8.0.19.jar!/:8.0.19]
+	at com.mysql.cj.jdbc.ConnectionImpl.connectWithRetries(ConnectionImpl.java:850) ~[mysql-connector-java-8.0.19.jar!/:8.0.19]
+	... 15 common frames omitted
+Caused by: java.net.ConnectException: Connection refused (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method) ~[na:1.8.0_111]
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350) ~[na:1.8.0_111]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206) ~[na:1.8.0_111]
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188) ~[na:1.8.0_111]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[na:1.8.0_111]
+	at java.net.Socket.connect(Socket.java:589) ~[na:1.8.0_111]
+	at com.mysql.cj.protocol.StandardSocketFactory.connect(StandardSocketFactory.java:155) ~[mysql-connector-java-8.0.19.jar!/:8.0.19]
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:65) ~[mysql-connector-java-8.0.19.jar!/:8.0.19]
+	... 17 common frames omitted
+
+2020-06-17 08:25:05.810 ERROR 16 --- [Druid-ConnectionPool-Create-260836246] com.alibaba.druid.pool.DruidDataSource   : create connection SQLException, url: jdbc:mysql://127.0.0.1:12400/jiamu?autoReconnect=true&useUnicode=true&characterEncoding=utf-8&allowMultiQueries=true&zeroDateTimeBehavior=convertToNull&useSSL=false, errorCode 0, state 08001
+
+java.sql.SQLNonTransientConnectionException: Could not create connection to database server. Attempted reconnect 3 times. Giving up.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:110) ~[mysql-connector-java-8.0.19.jar!/:8.0.19]
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97) ~[mysql-connector-java-8.0.19.jar!/:8.0.19]
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:89) ~[mysql-connector-java-8.0.19.jar!/:8.0.19]
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:63) ~[mysql-connector-java-8.0.19.jar!/:8.0.19]
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:73) ~[mysql-connector-java-8.0.19.jar!/:8.0.19]
+	at com.mysql.cj.jdbc.ConnectionImpl.connectWithRetries(ConnectionImpl.java:906) ~[mysql-connector-java-8.0.19.jar!/:8.0.19]
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:831) ~[mysql-connector-java-8.0.19.jar!/:8.0.19]
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:456) ~[mysql-connector-java-8.0.19.jar!/:8.0.19]
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:246) ~[mysql-connector-java-8.0.19.jar!/:8.0.19]
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:197) ~[mysql-connector-java-8.0.19.jar!/:8.0.19]
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:156) ~[druid-1.1.22.jar!/:1.1.22]
+	at com.alibaba.druid.filter.FilterAdapter.connection_connect(FilterAdapter.java:787) ~[druid-1.1.22.jar!/:1.1.22]
+	at com.alibaba.druid.filter.FilterEventAdapter.connection_connect(FilterEventAdapter.java:38) ~[druid-1.1.22.jar!/:1.1.22]
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:150) ~[druid-1.1.22.jar!/:1.1.22]
+	at com.alibaba.druid.filter.FilterAdapter.connection_connect(FilterAdapter.java:787) ~[druid-1.1.22.jar!/:1.1.22]
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:150) ~[druid-1.1.22.jar!/:1.1.22]
+	at com.alibaba.druid.filter.stat.StatFilter.connection_connect(StatFilter.java:218) ~[druid-1.1.22.jar!/:1.1.22]
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:150) ~[druid-1.1.22.jar!/:1.1.22]
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1646) ~[druid-1.1.22.jar!/:1.1.22]
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1710) ~[druid-1.1.22.jar!/:1.1.22]
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2779) ~[druid-1.1.22.jar!/:1.1.22]
+Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.GeneratedConstructorAccessor47.newInstance(Unknown Source) ~[na:na]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[na:1.8.0_111]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423) ~[na:1.8.0_111]
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61) ~[mysql-connector-java-8.0.19.jar!/:8.0.19]
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105) ~[mysql-connector-java-8.0.19.jar!/:8.0.19]
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:151) ~[mysql-connector-java-8.0.19.jar!/:8.0.19]
+	at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:167) ~[mysql-connector-java-8.0.19.jar!/:8.0.19]
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:91) ~[mysql-connector-java-8.0.19.jar!/:8.0.19]
+	at com.mysql.cj.NativeSession.connect(NativeSession.java:144) ~[mysql-connector-java-8.0.19.jar!/:8.0.19]
+	at com.mysql.cj.jdbc.ConnectionImpl.connectWithRetries(ConnectionImpl.java:850) ~[mysql-connector-java-8.0.19.jar!/:8.0.19]
+	... 15 common frames omitted
+Caused by: java.net.ConnectException: Connection refused (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method) ~[na:1.8.0_111]
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350) ~[na:1.8.0_111]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206) ~[na:1.8.0_111]
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188) ~[na:1.8.0_111]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[na:1.8.0_111]
+	at java.net.Socket.connect(Socket.java:589) ~[na:1.8.0_111]
+	at com.mysql.cj.protocol.StandardSocketFactory.connect(StandardSocketFactory.java:155) ~[mysql-connector-java-8.0.19.jar!/:8.0.19]
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:65) ~[mysql-connector-java-8.0.19.jar!/:8.0.19]
+	... 17 common frames omitted
+
+2020-06-17 08:25:10.326 ERROR 16 --- [Druid-ConnectionPool-Create-260836246] com.alibaba.druid.pool.DruidDataSource   : create connection SQLException, url: jdbc:mysql://127.0.0.1:12400/jiamu?autoReconnect=true&useUnicode=true&characterEncoding=utf-8&allowMultiQueries=true&zeroDateTimeBehavior=convertToNull&useSSL=false, errorCode 0, state 08001
+
+java.sql.SQLNonTransientConnectionException: Could not create connection to database server. Attempted reconnect 3 times. Giving up.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:110) ~[mysql-connector-java-8.0.19.jar!/:8.0.19]
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97) ~[mysql-connector-java-8.0.19.jar!/:8.0.19]
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:89) ~[mysql-connector-java-8.0.19.jar!/:8.0.19]
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:63) ~[mysql-connector-java-8.0.19.jar!/:8.0.19]
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:73) ~[mysql-connector-java-8.0.19.jar!/:8.0.19]
+	at com.mysql.cj.jdbc.ConnectionImpl.connectWithRetries(ConnectionImpl.java:906) ~[mysql-connector-java-8.0.19.jar!/:8.0.19]
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:831) ~[mysql-connector-java-8.0.19.jar!/:8.0.19]
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:456) ~[mysql-connector-java-8.0.19.jar!/:8.0.19]
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:246) ~[mysql-connector-java-8.0.19.jar!/:8.0.19]
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:197) ~[mysql-connector-java-8.0.19.jar!/:8.0.19]
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:156) ~[druid-1.1.22.jar!/:1.1.22]
+	at com.alibaba.druid.filter.FilterAdapter.connection_connect(FilterAdapter.java:787) ~[druid-1.1.22.jar!/:1.1.22]
+	at com.alibaba.druid.filter.FilterEventAdapter.connection_connect(FilterEventAdapter.java:38) ~[druid-1.1.22.jar!/:1.1.22]
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:150) ~[druid-1.1.22.jar!/:1.1.22]
+	at com.alibaba.druid.filter.FilterAdapter.connection_connect(FilterAdapter.java:787) ~[druid-1.1.22.jar!/:1.1.22]
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:150) ~[druid-1.1.22.jar!/:1.1.22]
+	at com.alibaba.druid.filter.stat.StatFilter.connection_connect(StatFilter.java:218) ~[druid-1.1.22.jar!/:1.1.22]
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:150) ~[druid-1.1.22.jar!/:1.1.22]
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1646) ~[druid-1.1.22.jar!/:1.1.22]
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1710) ~[druid-1.1.22.jar!/:1.1.22]
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2779) ~[druid-1.1.22.jar!/:1.1.22]
+Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.GeneratedConstructorAccessor47.newInstance(Unknown Source) ~[na:na]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[na:1.8.0_111]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423) ~[na:1.8.0_111]
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61) ~[mysql-connector-java-8.0.19.jar!/:8.0.19]
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105) ~[mysql-connector-java-8.0.19.jar!/:8.0.19]
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:151) ~[mysql-connector-java-8.0.19.jar!/:8.0.19]
+	at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:167) ~[mysql-connector-java-8.0.19.jar!/:8.0.19]
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:91) ~[mysql-connector-java-8.0.19.jar!/:8.0.19]
+	at com.mysql.cj.NativeSession.connect(NativeSession.java:144) ~[mysql-connector-java-8.0.19.jar!/:8.0.19]
+	at com.mysql.cj.jdbc.ConnectionImpl.connectWithRetries(ConnectionImpl.java:850) ~[mysql-connector-java-8.0.19.jar!/:8.0.19]
+	... 15 common frames omitted
+Caused by: java.net.ConnectException: Connection refused (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method) ~[na:1.8.0_111]
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350) ~[na:1.8.0_111]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206) ~[na:1.8.0_111]
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188) ~[na:1.8.0_111]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[na:1.8.0_111]
+	at java.net.Socket.connect(Socket.java:589) ~[na:1.8.0_111]
+	at com.mysql.cj.protocol.StandardSocketFactory.connect(StandardSocketFactory.java:155) ~[mysql-connector-java-8.0.19.jar!/:8.0.19]
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:65) ~[mysql-connector-java-8.0.19.jar!/:8.0.19]
+	... 17 common frames omitted
+
+2020-06-17 08:25:12.588  WARN 16 --- [http-nio-8080-exec-1] com.alibaba.druid.pool.DruidDataSource   : get connection timeout retry : 1
+2020-06-17 08:27:34.664  INFO 15 --- [main] com.jiamu.jiamu001.Jiamu001Application   : Starting Jiamu001Application v0.0.1-SNAPSHOT on 218744bdec9c with PID 15 (/app/jiamu001-0.0.1-SNAPSHOT.jar started by root in /app)
+2020-06-17 08:27:34.679  INFO 15 --- [main] com.jiamu.jiamu001.Jiamu001Application   : No active profile set, falling back to default profiles: default
+2020-06-17 08:27:36.842  INFO 15 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2020-06-17 08:27:36.925  INFO 15 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 59ms. Found 0 JDBC repository interfaces.
+2020-06-17 08:27:37.761  INFO 15 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'shiroConfig' of type [com.jiamu.jiamu001.config.ShiroConfig$$EnhancerBySpringCGLIB$$9e3a006b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-17 08:27:37.931  INFO 15 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'mybatis-org.mybatis.spring.boot.autoconfigure.MybatisProperties' of type [org.mybatis.spring.boot.autoconfigure.MybatisProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-17 08:27:37.946  INFO 15 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration' of type [org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$b0b6b939] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-17 08:27:37.951  INFO 15 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'druidConfig' of type [com.jiamu.jiamu001.config.DruidConfig$$EnhancerBySpringCGLIB$$f2e063dc] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-17 08:27:38.223  INFO 15 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'druid' of type [com.alibaba.druid.pool.DruidDataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-17 08:27:38.429  INFO 15 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'sqlSessionFactory' of type [org.apache.ibatis.session.defaults.DefaultSqlSessionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-17 08:27:38.449  INFO 15 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'sqlSessionTemplate' of type [org.mybatis.spring.SqlSessionTemplate] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-17 08:27:38.538  INFO 15 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'weixinAdminMapper' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-17 08:27:38.549  INFO 15 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'weixinAdminMapper' of type [com.sun.proxy.$Proxy68] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-17 08:27:38.552  INFO 15 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'weixinAdminLoginServiceImpl' of type [com.jiamu.jiamu001.serviceImpl.WeixinAdminLoginServiceImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-17 08:27:38.555  INFO 15 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'myRealm' of type [com.jiamu.jiamu001.serviceImpl.MyRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-17 08:27:38.710  INFO 15 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-17 08:27:38.845  INFO 15 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'authorizationAttributeSourceAdvisor' of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-06-17 08:27:39.510  INFO 15 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-06-17 08:27:39.543  INFO 15 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-06-17 08:27:39.547  INFO 15 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-06-17 08:27:39.871  INFO 15 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-06-17 08:27:39.873  INFO 15 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 4972 ms
+2020-06-17 08:27:41.558  INFO 15 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-06-17 08:27:41.577  INFO 15 --- [main] com.jiamu.jiamu001.Jiamu001Application   : Started Jiamu001Application in 8.818 seconds (JVM running for 10.354)
+2020-06-17 08:27:56.140  INFO 15 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-06-17 08:27:56.144  INFO 15 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-06-17 08:27:56.169  INFO 15 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 23 ms
+2020-06-17 08:27:56.358  INFO 15 --- [http-nio-8080-exec-2] c.j.j.s.WeixinUserLoginServiceImpl       : Start get SessionKey，loginRequest的数据为：081Lv1SO1SQDP71vDATO1SCURO1Lv1Sr
+2020-06-17 08:27:57.818  INFO 15 --- [http-nio-8080-exec-1] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2020-06-17 08:27:57.843 DEBUG 15 --- [http-nio-8080-exec-1] c.j.j.m.WeixinSwipperMapper.getSwipper   : ==>  Preparing: select * from weixin_swipper 
+2020-06-17 08:27:58.308 DEBUG 15 --- [http-nio-8080-exec-1] c.j.j.m.WeixinSwipperMapper.getSwipper   : ==> Parameters: 
+2020-06-17 08:27:58.379 DEBUG 15 --- [http-nio-8080-exec-2] c.j.j.mapper.WeixinUserMapper.hasOpenid  : ==>  Preparing: select * from weixin_user where openId=? 
+2020-06-17 08:27:58.415 DEBUG 15 --- [http-nio-8080-exec-1] c.j.j.m.WeixinSwipperMapper.getSwipper   : <==      Total: 0
+2020-06-17 08:27:58.496 DEBUG 15 --- [http-nio-8080-exec-2] c.j.j.mapper.WeixinUserMapper.hasOpenid  : ==> Parameters: oNCZ55OGF4WoUXnp7h_LPFg4dhyc(String)
+2020-06-17 08:27:58.538 DEBUG 15 --- [http-nio-8080-exec-2] c.j.j.mapper.WeixinUserMapper.hasOpenid  : <==      Total: 1
+2020-06-17 08:27:58.817 DEBUG 15 --- [http-nio-8080-exec-3] c.j.j.m.WeixinUserCartMapper.getCart     : ==>  Preparing: select * from weixin_user_cart where userId=? 
+2020-06-17 08:27:58.835 DEBUG 15 --- [http-nio-8080-exec-3] c.j.j.m.WeixinUserCartMapper.getCart     : ==> Parameters: 4(Integer)
+2020-06-17 08:27:58.870 DEBUG 15 --- [http-nio-8080-exec-3] c.j.j.m.WeixinUserCartMapper.getCart     : <==      Total: 0
+2020-06-17 08:29:25.093 DEBUG 15 --- [http-nio-8080-exec-6] c.j.j.m.W.getAdminByName                 : ==>  Preparing: select * from weixin_admin where adminName=? 
+2020-06-17 08:29:25.104 DEBUG 15 --- [http-nio-8080-exec-6] c.j.j.m.W.getAdminByName                 : ==> Parameters: alex(String)
+2020-06-17 08:29:25.128 DEBUG 15 --- [http-nio-8080-exec-6] c.j.j.m.W.getAdminByName                 : <==      Total: 1
+2020-06-17 08:29:30.572 DEBUG 15 --- [http-nio-8080-exec-7] c.j.j.m.WeixinSwipperMapper.getSwipper   : ==>  Preparing: select * from weixin_swipper 
+2020-06-17 08:29:30.584 DEBUG 15 --- [http-nio-8080-exec-7] c.j.j.m.WeixinSwipperMapper.getSwipper   : ==> Parameters: 
+2020-06-17 08:29:30.582 DEBUG 15 --- [http-nio-8080-exec-8] c.j.j.m.WeixinSwipperMapper.getSwipper   : ==>  Preparing: select * from weixin_swipper 
+2020-06-17 08:29:30.590 DEBUG 15 --- [http-nio-8080-exec-7] c.j.j.m.WeixinSwipperMapper.getSwipper   : <==      Total: 0
+2020-06-17 08:29:30.599 DEBUG 15 --- [http-nio-8080-exec-8] c.j.j.m.WeixinSwipperMapper.getSwipper   : ==> Parameters: 
+2020-06-17 08:29:30.607 DEBUG 15 --- [http-nio-8080-exec-8] c.j.j.m.WeixinSwipperMapper.getSwipper   : <==      Total: 0
+2020-06-17 08:29:32.737 DEBUG 15 --- [http-nio-8080-exec-10] c.j.j.mapper.TeaProductMapper.getTea     : ==>  Preparing: select * from tea_product where teaType=? 
+2020-06-17 08:29:32.739 DEBUG 15 --- [http-nio-8080-exec-9] c.j.j.mapper.TeaProductMapper.getTea     : ==>  Preparing: select * from tea_product where teaType=? 
+2020-06-17 08:29:32.747 DEBUG 15 --- [http-nio-8080-exec-9] c.j.j.mapper.TeaProductMapper.getTea     : ==> Parameters: 1(Integer)
+2020-06-17 08:29:32.755 DEBUG 15 --- [http-nio-8080-exec-10] c.j.j.mapper.TeaProductMapper.getTea     : ==> Parameters: 1(Integer)
+2020-06-17 08:29:32.858 DEBUG 15 --- [http-nio-8080-exec-9] c.j.j.mapper.TeaProductMapper.getTea     : <==      Total: 0
+2020-06-17 08:29:32.858 DEBUG 15 --- [http-nio-8080-exec-10] c.j.j.mapper.TeaProductMapper.getTea     : <==      Total: 0
+2020-06-17 08:29:48.051 DEBUG 15 --- [http-nio-8080-exec-1] c.j.j.m.W.getAdminByName                 : ==>  Preparing: select * from weixin_admin where adminName=? 
+2020-06-17 08:29:48.056 DEBUG 15 --- [http-nio-8080-exec-1] c.j.j.m.W.getAdminByName                 : ==> Parameters: alex(String)
+2020-06-17 08:29:48.066 DEBUG 15 --- [http-nio-8080-exec-1] c.j.j.m.W.getAdminByName                 : <==      Total: 1
+2020-06-17 08:29:48.181 DEBUG 15 --- [http-nio-8080-exec-1] c.j.j.m.W.getAdminByName                 : ==>  Preparing: select * from weixin_admin where adminName=? 
+2020-06-17 08:29:48.182 DEBUG 15 --- [http-nio-8080-exec-1] c.j.j.m.W.getAdminByName                 : ==> Parameters: alex(String)
+2020-06-17 08:29:48.187 DEBUG 15 --- [http-nio-8080-exec-1] c.j.j.m.W.getAdminByName                 : <==      Total: 1
+2020-06-17 08:29:48.214  INFO 15 --- [http-nio-8080-exec-1] c.j.j.s.TeaPhotoTempServiceImpl          : 文件url地址为http://localhost:8080/pic/tea/a801e1ac-dfca-407e-aafc-3c7ad51ac42a.jpg
+2020-06-17 08:29:48.220 DEBUG 15 --- [http-nio-8080-exec-1] c.j.j.mapper.TeaPhotoTempMapper.add      : ==>  Preparing: insert into photo_temp(url,realPath) values(?,?) 
+2020-06-17 08:29:48.319 DEBUG 15 --- [http-nio-8080-exec-1] c.j.j.mapper.TeaPhotoTempMapper.add      : ==> Parameters: http://localhost:8080/pic/tea/a801e1ac-dfca-407e-aafc-3c7ad51ac42a.jpg(String), /data/tea/a801e1ac-dfca-407e-aafc-3c7ad51ac42a.jpg(String)
+2020-06-17 08:29:48.351 DEBUG 15 --- [http-nio-8080-exec-1] c.j.j.mapper.TeaPhotoTempMapper.add      : <==    Updates: 1
+2020-06-17 08:29:52.573 DEBUG 15 --- [http-nio-8080-exec-3] c.j.j.m.W.getAdminByName                 : ==>  Preparing: select * from weixin_admin where adminName=? 
+2020-06-17 08:29:52.580 DEBUG 15 --- [http-nio-8080-exec-3] c.j.j.m.W.getAdminByName                 : ==> Parameters: alex(String)
+2020-06-17 08:29:52.592 DEBUG 15 --- [http-nio-8080-exec-3] c.j.j.m.W.getAdminByName                 : <==      Total: 1
+2020-06-17 08:29:52.638 DEBUG 15 --- [http-nio-8080-exec-3] c.j.j.m.W.getAdminByName                 : ==>  Preparing: select * from weixin_admin where adminName=? 
+2020-06-17 08:29:52.648 DEBUG 15 --- [http-nio-8080-exec-3] c.j.j.m.W.getAdminByName                 : ==> Parameters: alex(String)
+2020-06-17 08:29:52.657 DEBUG 15 --- [http-nio-8080-exec-3] c.j.j.m.W.getAdminByName                 : <==      Total: 1
+2020-06-17 08:29:52.660 DEBUG 15 --- [http-nio-8080-exec-3] c.j.j.m.TeaProductMapper.addProduct      : ==>  Preparing: insert into tea_product(teaName,teaPrice,teaSize,teaTaste,teaInfo,teaPhotoUrl,teaPhotoUrlList,teaType) values(?,?,?,?,?,?,?,?) 
+2020-06-17 08:29:52.668 DEBUG 15 --- [http-nio-8080-exec-3] c.j.j.m.TeaProductMapper.addProduct      : ==> Parameters: vfdverv(String), 4536.0(Double), cvdsfve(String), verger(String), fvrbgertbt(String), http://localhost:8080/pic/tea/a801e1ac-dfca-407e-aafc-3c7ad51ac42a.jpg(String), [](String), 1(Integer)
+2020-06-17 08:29:52.673 DEBUG 15 --- [http-nio-8080-exec-3] c.j.j.m.TeaProductMapper.addProduct      : <==    Updates: 1
+2020-06-17 08:29:52.690 DEBUG 15 --- [http-nio-8080-exec-3] c.j.j.mapper.TeaPhotoTempMapper.delete   : ==>  Preparing: delete from photo_temp where url=? 
+2020-06-17 08:29:52.695 DEBUG 15 --- [http-nio-8080-exec-3] c.j.j.mapper.TeaPhotoTempMapper.delete   : ==> Parameters: http://localhost:8080/pic/tea/a801e1ac-dfca-407e-aafc-3c7ad51ac42a.jpg(String)
+2020-06-17 08:29:52.703 DEBUG 15 --- [http-nio-8080-exec-3] c.j.j.mapper.TeaPhotoTempMapper.delete   : <==    Updates: 1
+2020-06-17 08:29:52.705 DEBUG 15 --- [http-nio-8080-exec-3] c.j.j.mapper.TeaPhotoTempMapper.select   : ==>  Preparing: select * from photo_temp 
+2020-06-17 08:29:52.708 DEBUG 15 --- [http-nio-8080-exec-3] c.j.j.mapper.TeaPhotoTempMapper.select   : ==> Parameters: 
+2020-06-17 08:29:52.712 DEBUG 15 --- [http-nio-8080-exec-3] c.j.j.mapper.TeaPhotoTempMapper.select   : <==      Total: 0
+2020-06-17 08:29:54.784 DEBUG 15 --- [http-nio-8080-exec-4] c.j.j.mapper.TeaProductMapper.getTea     : ==>  Preparing: select * from tea_product where teaType=? 
+2020-06-17 08:29:54.797 DEBUG 15 --- [http-nio-8080-exec-4] c.j.j.mapper.TeaProductMapper.getTea     : ==> Parameters: 1(Integer)
+2020-06-17 08:29:54.810 DEBUG 15 --- [http-nio-8080-exec-4] c.j.j.mapper.TeaProductMapper.getTea     : <==      Total: 1
+2020-06-17 08:30:44.930 DEBUG 15 --- [http-nio-8080-exec-8] c.j.j.m.WeixinSwipperMapper.getSwipper   : ==>  Preparing: select * from weixin_swipper 
+2020-06-17 08:30:44.940 DEBUG 15 --- [http-nio-8080-exec-8] c.j.j.m.WeixinSwipperMapper.getSwipper   : ==> Parameters: 
+2020-06-17 08:30:44.950 DEBUG 15 --- [http-nio-8080-exec-7] c.j.j.m.WeixinSwipperMapper.getSwipper   : ==>  Preparing: select * from weixin_swipper 
+2020-06-17 08:30:44.954 DEBUG 15 --- [http-nio-8080-exec-8] c.j.j.m.WeixinSwipperMapper.getSwipper   : <==      Total: 0
+2020-06-17 08:30:44.974 DEBUG 15 --- [http-nio-8080-exec-7] c.j.j.m.WeixinSwipperMapper.getSwipper   : ==> Parameters: 
+2020-06-17 08:30:45.011 DEBUG 15 --- [http-nio-8080-exec-7] c.j.j.m.WeixinSwipperMapper.getSwipper   : <==      Total: 0
+2020-06-17 08:30:53.365 DEBUG 15 --- [http-nio-8080-exec-9] c.j.j.m.W.getAdminByName                 : ==>  Preparing: select * from weixin_admin where adminName=? 
+2020-06-17 08:30:53.388 DEBUG 15 --- [http-nio-8080-exec-9] c.j.j.m.W.getAdminByName                 : ==> Parameters: alex(String)
+2020-06-17 08:30:53.398 DEBUG 15 --- [http-nio-8080-exec-10] c.j.j.m.W.getAdminByName                 : ==>  Preparing: select * from weixin_admin where adminName=? 
+2020-06-17 08:30:53.400 DEBUG 15 --- [http-nio-8080-exec-9] c.j.j.m.W.getAdminByName                 : <==      Total: 1
+2020-06-17 08:30:53.401 DEBUG 15 --- [http-nio-8080-exec-10] c.j.j.m.W.getAdminByName                 : ==> Parameters: alex(String)
+2020-06-17 08:30:53.434 DEBUG 15 --- [http-nio-8080-exec-10] c.j.j.m.W.getAdminByName                 : <==      Total: 1
+2020-06-17 08:30:53.441 DEBUG 15 --- [http-nio-8080-exec-1] c.j.j.m.W.getAdminByName                 : ==>  Preparing: select * from weixin_admin where adminName=? 
+2020-06-17 08:30:53.423 DEBUG 15 --- [http-nio-8080-exec-9] c.j.j.m.W.getAdminByName                 : ==>  Preparing: select * from weixin_admin where adminName=? 
+2020-06-17 08:30:53.444 DEBUG 15 --- [http-nio-8080-exec-1] c.j.j.m.W.getAdminByName                 : ==> Parameters: alex(String)
+2020-06-17 08:30:53.448 DEBUG 15 --- [http-nio-8080-exec-1] c.j.j.m.W.getAdminByName                 : <==      Total: 1
+2020-06-17 08:30:53.451 DEBUG 15 --- [http-nio-8080-exec-9] c.j.j.m.W.getAdminByName                 : ==> Parameters: alex(String)
+2020-06-17 08:30:53.465 DEBUG 15 --- [http-nio-8080-exec-9] c.j.j.m.W.getAdminByName                 : <==      Total: 1
+2020-06-17 08:30:53.476 DEBUG 15 --- [http-nio-8080-exec-10] c.j.j.m.W.getAdminByName                 : ==>  Preparing: select * from weixin_admin where adminName=? 
+2020-06-17 08:30:53.478 DEBUG 15 --- [http-nio-8080-exec-10] c.j.j.m.W.getAdminByName                 : ==> Parameters: alex(String)
+2020-06-17 08:30:53.488 DEBUG 15 --- [http-nio-8080-exec-10] c.j.j.m.W.getAdminByName                 : <==      Total: 1
+2020-06-17 08:30:53.493  INFO 15 --- [http-nio-8080-exec-9] c.j.j.s.WeixinSwipperServiceImpl         : 文件url地址为http://localhost:8080/pic/swipper/66a2f4c6-ceb5-41c4-8860-17f93e988dc6.jpg
+2020-06-17 08:30:53.496 DEBUG 15 --- [http-nio-8080-exec-9] c.j.j.m.W.inserSwipper                   : ==>  Preparing: insert into weixin_swipper(url,realPath) values(?,?) 
+2020-06-17 08:30:53.500  INFO 15 --- [http-nio-8080-exec-10] c.j.j.s.WeixinSwipperServiceImpl         : 文件url地址为http://localhost:8080/pic/swipper/2b2c34b6-189c-4df5-aa0a-0ea83dc9f10a.jpeg
+2020-06-17 08:30:53.501 DEBUG 15 --- [http-nio-8080-exec-10] c.j.j.m.W.inserSwipper                   : ==>  Preparing: insert into weixin_swipper(url,realPath) values(?,?) 
+2020-06-17 08:30:53.501 DEBUG 15 --- [http-nio-8080-exec-9] c.j.j.m.W.inserSwipper                   : ==> Parameters: http://localhost:8080/pic/swipper/66a2f4c6-ceb5-41c4-8860-17f93e988dc6.jpg(String), /data/swipper/66a2f4c6-ceb5-41c4-8860-17f93e988dc6.jpg(String)
+2020-06-17 08:30:53.503 DEBUG 15 --- [http-nio-8080-exec-10] c.j.j.m.W.inserSwipper                   : ==> Parameters: http://localhost:8080/pic/swipper/2b2c34b6-189c-4df5-aa0a-0ea83dc9f10a.jpeg(String), /data/swipper/2b2c34b6-189c-4df5-aa0a-0ea83dc9f10a.jpeg(String)
+2020-06-17 08:30:53.514 DEBUG 15 --- [http-nio-8080-exec-9] c.j.j.m.W.inserSwipper                   : <==    Updates: 1
+2020-06-17 08:30:53.517 DEBUG 15 --- [http-nio-8080-exec-10] c.j.j.m.W.inserSwipper                   : <==    Updates: 1
+2020-06-17 08:30:53.545 DEBUG 15 --- [http-nio-8080-exec-1] c.j.j.m.W.getAdminByName                 : ==>  Preparing: select * from weixin_admin where adminName=? 
+2020-06-17 08:30:53.559 DEBUG 15 --- [http-nio-8080-exec-1] c.j.j.m.W.getAdminByName                 : ==> Parameters: alex(String)
+2020-06-17 08:30:53.567 DEBUG 15 --- [http-nio-8080-exec-1] c.j.j.m.W.getAdminByName                 : <==      Total: 1
+2020-06-17 08:30:53.655  INFO 15 --- [http-nio-8080-exec-1] c.j.j.s.WeixinSwipperServiceImpl         : 文件url地址为http://localhost:8080/pic/swipper/ee846fde-debe-48af-819b-371fd71f32c6.jpg
+2020-06-17 08:30:53.658 DEBUG 15 --- [http-nio-8080-exec-1] c.j.j.m.W.inserSwipper                   : ==>  Preparing: insert into weixin_swipper(url,realPath) values(?,?) 
+2020-06-17 08:30:53.672 DEBUG 15 --- [http-nio-8080-exec-1] c.j.j.m.W.inserSwipper                   : ==> Parameters: http://localhost:8080/pic/swipper/ee846fde-debe-48af-819b-371fd71f32c6.jpg(String), /data/swipper/ee846fde-debe-48af-819b-371fd71f32c6.jpg(String)
+2020-06-17 08:30:53.688 DEBUG 15 --- [http-nio-8080-exec-1] c.j.j.m.W.inserSwipper                   : <==    Updates: 1
+2020-06-17 08:30:57.097 DEBUG 15 --- [http-nio-8080-exec-5] c.j.j.m.WeixinSwipperMapper.getSwipper   : ==>  Preparing: select * from weixin_swipper 
+2020-06-17 08:30:57.113 DEBUG 15 --- [http-nio-8080-exec-5] c.j.j.m.WeixinSwipperMapper.getSwipper   : ==> Parameters: 
+2020-06-17 08:30:57.125 DEBUG 15 --- [http-nio-8080-exec-5] c.j.j.m.WeixinSwipperMapper.getSwipper   : <==      Total: 3
+2020-06-17 08:30:59.494 DEBUG 15 --- [http-nio-8080-exec-10] c.j.j.m.W.getAdminByName                 : ==>  Preparing: select * from weixin_admin where adminName=? 
+2020-06-17 08:30:59.498 DEBUG 15 --- [http-nio-8080-exec-10] c.j.j.m.W.getAdminByName                 : ==> Parameters: alex(String)
+2020-06-17 08:30:59.506 DEBUG 15 --- [http-nio-8080-exec-10] c.j.j.m.W.getAdminByName                 : <==      Total: 1
+2020-06-17 08:30:59.515 DEBUG 15 --- [http-nio-8080-exec-10] c.j.j.m.W.getAdminByName                 : ==>  Preparing: select * from weixin_admin where adminName=? 
+2020-06-17 08:30:59.517 DEBUG 15 --- [http-nio-8080-exec-10] c.j.j.m.W.getAdminByName                 : ==> Parameters: alex(String)
+2020-06-17 08:30:59.520 DEBUG 15 --- [http-nio-8080-exec-10] c.j.j.m.W.getAdminByName                 : <==      Total: 1
+2020-06-17 08:30:59.527 DEBUG 15 --- [http-nio-8080-exec-10] c.j.j.m.W.getRealPathByUrl               : ==>  Preparing: select realPath from weixin_swipper where Url=? 
+2020-06-17 08:30:59.529 DEBUG 15 --- [http-nio-8080-exec-10] c.j.j.m.W.getRealPathByUrl               : ==> Parameters: http://localhost:8080/pic/swipper/ee846fde-debe-48af-819b-371fd71f32c6.jpg(String)
+2020-06-17 08:30:59.538 DEBUG 15 --- [http-nio-8080-exec-10] c.j.j.m.W.getRealPathByUrl               : <==      Total: 1
+2020-06-17 08:30:59.543 DEBUG 15 --- [http-nio-8080-exec-10] c.j.j.m.W.deleteSwipper                  : ==>  Preparing: delete from weixin_swipper where url=? 
+2020-06-17 08:30:59.545 DEBUG 15 --- [http-nio-8080-exec-10] c.j.j.m.W.deleteSwipper                  : ==> Parameters: http://localhost:8080/pic/swipper/ee846fde-debe-48af-819b-371fd71f32c6.jpg(String)
+2020-06-17 08:30:59.555 DEBUG 15 --- [http-nio-8080-exec-10] c.j.j.m.W.deleteSwipper                  : <==    Updates: 1
+2020-06-17 08:30:59.589 DEBUG 15 --- [http-nio-8080-exec-9] c.j.j.m.WeixinSwipperMapper.getSwipper   : ==>  Preparing: select * from weixin_swipper 
+2020-06-17 08:30:59.592 DEBUG 15 --- [http-nio-8080-exec-9] c.j.j.m.WeixinSwipperMapper.getSwipper   : ==> Parameters: 
+2020-06-17 08:30:59.602 DEBUG 15 --- [http-nio-8080-exec-9] c.j.j.m.WeixinSwipperMapper.getSwipper   : <==      Total: 2
+2020-06-17 08:31:02.819 DEBUG 15 --- [http-nio-8080-exec-1] c.j.j.m.WeixinSwipperMapper.getSwipper   : ==>  Preparing: select * from weixin_swipper 
+2020-06-17 08:31:02.823 DEBUG 15 --- [http-nio-8080-exec-1] c.j.j.m.WeixinSwipperMapper.getSwipper   : ==> Parameters: 
+2020-06-17 08:31:02.822 DEBUG 15 --- [http-nio-8080-exec-2] c.j.j.m.WeixinSwipperMapper.getSwipper   : ==>  Preparing: select * from weixin_swipper 
+2020-06-17 08:31:02.826 DEBUG 15 --- [http-nio-8080-exec-2] c.j.j.m.WeixinSwipperMapper.getSwipper   : ==> Parameters: 
+2020-06-17 08:31:02.834 DEBUG 15 --- [http-nio-8080-exec-1] c.j.j.m.WeixinSwipperMapper.getSwipper   : <==      Total: 2
+2020-06-17 08:31:02.839 DEBUG 15 --- [http-nio-8080-exec-2] c.j.j.m.WeixinSwipperMapper.getSwipper   : <==      Total: 2
+2020-06-17 08:31:05.725 DEBUG 15 --- [http-nio-8080-exec-5] c.j.j.mapper.TeaProductMapper.getTea     : ==>  Preparing: select * from tea_product where teaType=? 
+2020-06-17 08:31:05.739 DEBUG 15 --- [http-nio-8080-exec-5] c.j.j.mapper.TeaProductMapper.getTea     : ==> Parameters: 1(Integer)
+2020-06-17 08:31:05.745 DEBUG 15 --- [http-nio-8080-exec-5] c.j.j.mapper.TeaProductMapper.getTea     : <==      Total: 1
+2020-06-17 08:31:05.761 DEBUG 15 --- [http-nio-8080-exec-8] c.j.j.mapper.TeaProductMapper.getTea     : ==>  Preparing: select * from tea_product where teaType=? 
+2020-06-17 08:31:05.802 DEBUG 15 --- [http-nio-8080-exec-8] c.j.j.mapper.TeaProductMapper.getTea     : ==> Parameters: 1(Integer)
+2020-06-17 08:31:05.822 DEBUG 15 --- [http-nio-8080-exec-8] c.j.j.mapper.TeaProductMapper.getTea     : <==      Total: 1
+2020-06-17 08:31:09.861 DEBUG 15 --- [http-nio-8080-exec-10] c.j.j.mapper.TeaProductMapper.getTea     : ==>  Preparing: select * from tea_product where teaType=? 
+2020-06-17 08:31:09.866 DEBUG 15 --- [http-nio-8080-exec-10] c.j.j.mapper.TeaProductMapper.getTea     : ==> Parameters: 1(Integer)
+2020-06-17 08:31:09.861 DEBUG 15 --- [http-nio-8080-exec-6] c.j.j.mapper.TeaProductMapper.getTea     : ==>  Preparing: select * from tea_product where teaType=? 
+2020-06-17 08:31:09.868 DEBUG 15 --- [http-nio-8080-exec-6] c.j.j.mapper.TeaProductMapper.getTea     : ==> Parameters: 1(Integer)
+2020-06-17 08:31:09.877 DEBUG 15 --- [http-nio-8080-exec-10] c.j.j.mapper.TeaProductMapper.getTea     : <==      Total: 1
+2020-06-17 08:31:09.896 DEBUG 15 --- [http-nio-8080-exec-6] c.j.j.mapper.TeaProductMapper.getTea     : <==      Total: 1
+2020-06-17 08:31:21.129 DEBUG 15 --- [http-nio-8080-exec-9] c.j.j.m.W.getAdminByName                 : ==>  Preparing: select * from weixin_admin where adminName=? 
+2020-06-17 08:31:21.133 DEBUG 15 --- [http-nio-8080-exec-9] c.j.j.m.W.getAdminByName                 : ==> Parameters: alex(String)
+2020-06-17 08:31:21.142 DEBUG 15 --- [http-nio-8080-exec-9] c.j.j.m.W.getAdminByName                 : <==      Total: 1
+2020-06-17 08:31:21.155 DEBUG 15 --- [http-nio-8080-exec-9] c.j.j.m.W.getAdminByName                 : ==>  Preparing: select * from weixin_admin where adminName=? 
+2020-06-17 08:31:21.156 DEBUG 15 --- [http-nio-8080-exec-9] c.j.j.m.W.getAdminByName                 : ==> Parameters: alex(String)
+2020-06-17 08:31:21.159 DEBUG 15 --- [http-nio-8080-exec-9] c.j.j.m.W.getAdminByName                 : <==      Total: 1
+2020-06-17 08:31:21.166  INFO 15 --- [http-nio-8080-exec-9] c.j.j.s.TeaPhotoTempServiceImpl          : 文件url地址为http://localhost:8080/pic/tea/a98a487e-9013-4844-b6dd-cf55948b77bc.jpg
+2020-06-17 08:31:21.168 DEBUG 15 --- [http-nio-8080-exec-9] c.j.j.mapper.TeaPhotoTempMapper.add      : ==>  Preparing: insert into photo_temp(url,realPath) values(?,?) 
+2020-06-17 08:31:21.170 DEBUG 15 --- [http-nio-8080-exec-9] c.j.j.mapper.TeaPhotoTempMapper.add      : ==> Parameters: http://localhost:8080/pic/tea/a98a487e-9013-4844-b6dd-cf55948b77bc.jpg(String), /data/tea/a98a487e-9013-4844-b6dd-cf55948b77bc.jpg(String)
+2020-06-17 08:31:21.176 DEBUG 15 --- [http-nio-8080-exec-9] c.j.j.mapper.TeaPhotoTempMapper.add      : <==    Updates: 1
+2020-06-17 08:31:26.576 DEBUG 15 --- [http-nio-8080-exec-1] c.j.j.m.W.getAdminByName                 : ==>  Preparing: select * from weixin_admin where adminName=? 
+2020-06-17 08:31:26.580 DEBUG 15 --- [http-nio-8080-exec-1] c.j.j.m.W.getAdminByName                 : ==> Parameters: alex(String)
+2020-06-17 08:31:26.590 DEBUG 15 --- [http-nio-8080-exec-1] c.j.j.m.W.getAdminByName                 : <==      Total: 1
+2020-06-17 08:31:26.598 DEBUG 15 --- [http-nio-8080-exec-1] c.j.j.m.W.getAdminByName                 : ==>  Preparing: select * from weixin_admin where adminName=? 
+2020-06-17 08:31:26.599 DEBUG 15 --- [http-nio-8080-exec-1] c.j.j.m.W.getAdminByName                 : ==> Parameters: alex(String)
+2020-06-17 08:31:26.603 DEBUG 15 --- [http-nio-8080-exec-1] c.j.j.m.W.getAdminByName                 : <==      Total: 1
+2020-06-17 08:31:26.609  INFO 15 --- [http-nio-8080-exec-1] c.j.j.s.TeaPhotoTempServiceImpl          : 文件url地址为http://localhost:8080/pic/tea/b3e52076-b1f9-45e7-b16b-c478a0a1af57.jpg
+2020-06-17 08:31:26.610 DEBUG 15 --- [http-nio-8080-exec-1] c.j.j.mapper.TeaPhotoTempMapper.add      : ==>  Preparing: insert into photo_temp(url,realPath) values(?,?) 
+2020-06-17 08:31:26.611 DEBUG 15 --- [http-nio-8080-exec-1] c.j.j.mapper.TeaPhotoTempMapper.add      : ==> Parameters: http://localhost:8080/pic/tea/b3e52076-b1f9-45e7-b16b-c478a0a1af57.jpg(String), /data/tea/b3e52076-b1f9-45e7-b16b-c478a0a1af57.jpg(String)
+2020-06-17 08:31:26.616 DEBUG 15 --- [http-nio-8080-exec-1] c.j.j.mapper.TeaPhotoTempMapper.add      : <==    Updates: 1
+2020-06-17 08:31:32.047 DEBUG 15 --- [http-nio-8080-exec-3] c.j.j.m.W.getAdminByName                 : ==>  Preparing: select * from weixin_admin where adminName=? 
+2020-06-17 08:31:32.050 DEBUG 15 --- [http-nio-8080-exec-3] c.j.j.m.W.getAdminByName                 : ==> Parameters: alex(String)
+2020-06-17 08:31:32.059 DEBUG 15 --- [http-nio-8080-exec-3] c.j.j.m.W.getAdminByName                 : <==      Total: 1
+2020-06-17 08:31:32.070 DEBUG 15 --- [http-nio-8080-exec-3] c.j.j.m.W.getAdminByName                 : ==>  Preparing: select * from weixin_admin where adminName=? 
+2020-06-17 08:31:32.073 DEBUG 15 --- [http-nio-8080-exec-3] c.j.j.m.W.getAdminByName                 : ==> Parameters: alex(String)
+2020-06-17 08:31:32.077 DEBUG 15 --- [http-nio-8080-exec-3] c.j.j.m.W.getAdminByName                 : <==      Total: 1
+2020-06-17 08:31:32.080 DEBUG 15 --- [http-nio-8080-exec-3] c.j.j.m.TeaProductMapper.addProduct      : ==>  Preparing: insert into tea_product(teaName,teaPrice,teaSize,teaTaste,teaInfo,teaPhotoUrl,teaPhotoUrlList,teaType) values(?,?,?,?,?,?,?,?) 
+2020-06-17 08:31:32.082 DEBUG 15 --- [http-nio-8080-exec-3] c.j.j.m.TeaProductMapper.addProduct      : ==> Parameters: cdef(String), 43.0(Double), vefrv(String), vfd(String), dfgb(String), http://localhost:8080/pic/tea/a98a487e-9013-4844-b6dd-cf55948b77bc.jpg(String), [](String), 1(Integer)
+2020-06-17 08:31:32.091 DEBUG 15 --- [http-nio-8080-exec-3] c.j.j.m.TeaProductMapper.addProduct      : <==    Updates: 1
+2020-06-17 08:31:32.095 DEBUG 15 --- [http-nio-8080-exec-3] c.j.j.mapper.TeaPhotoTempMapper.delete   : ==>  Preparing: delete from photo_temp where url=? 
+2020-06-17 08:31:32.096 DEBUG 15 --- [http-nio-8080-exec-3] c.j.j.mapper.TeaPhotoTempMapper.delete   : ==> Parameters: http://localhost:8080/pic/tea/a98a487e-9013-4844-b6dd-cf55948b77bc.jpg(String)
+2020-06-17 08:31:32.104 DEBUG 15 --- [http-nio-8080-exec-3] c.j.j.mapper.TeaPhotoTempMapper.delete   : <==    Updates: 1
+2020-06-17 08:31:32.107 DEBUG 15 --- [http-nio-8080-exec-3] c.j.j.mapper.TeaPhotoTempMapper.select   : ==>  Preparing: select * from photo_temp 
+2020-06-17 08:31:32.109 DEBUG 15 --- [http-nio-8080-exec-3] c.j.j.mapper.TeaPhotoTempMapper.select   : ==> Parameters: 
+2020-06-17 08:31:32.114 DEBUG 15 --- [http-nio-8080-exec-3] c.j.j.mapper.TeaPhotoTempMapper.select   : <==      Total: 1
+2020-06-17 08:31:32.119 DEBUG 15 --- [http-nio-8080-exec-3] c.j.j.mapper.TeaPhotoTempMapper.delete   : ==>  Preparing: delete from photo_temp where url=? 
+2020-06-17 08:31:32.121 DEBUG 15 --- [http-nio-8080-exec-3] c.j.j.mapper.TeaPhotoTempMapper.delete   : ==> Parameters: http://localhost:8080/pic/tea/b3e52076-b1f9-45e7-b16b-c478a0a1af57.jpg(String)
+2020-06-17 08:31:32.128 DEBUG 15 --- [http-nio-8080-exec-3] c.j.j.mapper.TeaPhotoTempMapper.delete   : <==    Updates: 1
+2020-06-17 08:31:34.208 DEBUG 15 --- [http-nio-8080-exec-5] c.j.j.mapper.TeaProductMapper.getTea     : ==>  Preparing: select * from tea_product where teaType=? 
+2020-06-17 08:31:34.223 DEBUG 15 --- [http-nio-8080-exec-5] c.j.j.mapper.TeaProductMapper.getTea     : ==> Parameters: 1(Integer)
+2020-06-17 08:31:34.242 DEBUG 15 --- [http-nio-8080-exec-5] c.j.j.mapper.TeaProductMapper.getTea     : <==      Total: 2
+2020-06-17 08:31:50.194 DEBUG 15 --- [http-nio-8080-exec-10] c.j.j.m.W.getAdminByName                 : ==>  Preparing: select * from weixin_admin where adminName=? 
+2020-06-17 08:31:50.194 DEBUG 15 --- [http-nio-8080-exec-7] c.j.j.m.W.getAdminByName                 : ==>  Preparing: select * from weixin_admin where adminName=? 
+2020-06-17 08:31:50.201 DEBUG 15 --- [http-nio-8080-exec-10] c.j.j.m.W.getAdminByName                 : ==> Parameters: alex(String)
+2020-06-17 08:31:50.203 DEBUG 15 --- [http-nio-8080-exec-7] c.j.j.m.W.getAdminByName                 : ==> Parameters: alex(String)
+2020-06-17 08:31:50.208 DEBUG 15 --- [http-nio-8080-exec-10] c.j.j.m.W.getAdminByName                 : <==      Total: 1
+2020-06-17 08:31:50.212 DEBUG 15 --- [http-nio-8080-exec-7] c.j.j.m.W.getAdminByName                 : <==      Total: 1
+2020-06-17 08:31:50.216 DEBUG 15 --- [http-nio-8080-exec-10] c.j.j.m.W.getAdminByName                 : ==>  Preparing: select * from weixin_admin where adminName=? 
+2020-06-17 08:31:50.218 DEBUG 15 --- [http-nio-8080-exec-10] c.j.j.m.W.getAdminByName                 : ==> Parameters: alex(String)
+2020-06-17 08:31:50.222 DEBUG 15 --- [http-nio-8080-exec-10] c.j.j.m.W.getAdminByName                 : <==      Total: 1
+2020-06-17 08:31:50.231 DEBUG 15 --- [http-nio-8080-exec-7] c.j.j.m.W.getAdminByName                 : ==>  Preparing: select * from weixin_admin where adminName=? 
+2020-06-17 08:31:50.240 DEBUG 15 --- [http-nio-8080-exec-7] c.j.j.m.W.getAdminByName                 : ==> Parameters: alex(String)
+2020-06-17 08:31:50.243 DEBUG 15 --- [http-nio-8080-exec-10] c.j.j.m.W.getAllOrder                    : ==>  Preparing: select * from weixin_user_order where payStatus<4 
+2020-06-17 08:31:50.248 DEBUG 15 --- [http-nio-8080-exec-7] c.j.j.m.W.getAdminByName                 : <==      Total: 1
+2020-06-17 08:31:50.259 DEBUG 15 --- [http-nio-8080-exec-10] c.j.j.m.W.getAllOrder                    : ==> Parameters: 
+2020-06-17 08:31:50.260 DEBUG 15 --- [http-nio-8080-exec-7] c.j.j.m.W.getAllOrder                    : ==>  Preparing: select * from weixin_user_order where payStatus<4 
+2020-06-17 08:31:50.264 DEBUG 15 --- [http-nio-8080-exec-7] c.j.j.m.W.getAllOrder                    : ==> Parameters: 
+2020-06-17 08:31:50.328 DEBUG 15 --- [http-nio-8080-exec-10] c.j.j.m.W.getAllOrder                    : <==      Total: 0
+2020-06-17 08:31:50.328 DEBUG 15 --- [http-nio-8080-exec-7] c.j.j.m.W.getAllOrder                    : <==      Total: 0
+2020-06-17 08:31:53.390 DEBUG 15 --- [http-nio-8080-exec-6] c.j.j.mapper.TeaProductMapper.getTea     : ==>  Preparing: select * from tea_product where teaType=? 
+2020-06-17 08:31:53.399 DEBUG 15 --- [http-nio-8080-exec-9] c.j.j.mapper.TeaProductMapper.getTea     : ==>  Preparing: select * from tea_product where teaType=? 
+2020-06-17 08:31:53.405 DEBUG 15 --- [http-nio-8080-exec-9] c.j.j.mapper.TeaProductMapper.getTea     : ==> Parameters: 1(Integer)
+2020-06-17 08:31:53.408 DEBUG 15 --- [http-nio-8080-exec-6] c.j.j.mapper.TeaProductMapper.getTea     : ==> Parameters: 1(Integer)
+2020-06-17 08:31:53.413 DEBUG 15 --- [http-nio-8080-exec-9] c.j.j.mapper.TeaProductMapper.getTea     : <==      Total: 2
+2020-06-17 08:31:53.415 DEBUG 15 --- [http-nio-8080-exec-6] c.j.j.mapper.TeaProductMapper.getTea     : <==      Total: 2
+2020-06-17 08:31:59.417 DEBUG 15 --- [http-nio-8080-exec-3] c.j.j.mapper.TeaProductMapper.getTea     : ==>  Preparing: select * from tea_product where teaType=? 
+2020-06-17 08:31:59.421 DEBUG 15 --- [http-nio-8080-exec-3] c.j.j.mapper.TeaProductMapper.getTea     : ==> Parameters: 2(Integer)
+2020-06-17 08:31:59.425 DEBUG 15 --- [http-nio-8080-exec-5] c.j.j.mapper.TeaProductMapper.getTea     : ==>  Preparing: select * from tea_product where teaType=? 
+2020-06-17 08:31:59.430 DEBUG 15 --- [http-nio-8080-exec-5] c.j.j.mapper.TeaProductMapper.getTea     : ==> Parameters: 2(Integer)
+2020-06-17 08:31:59.431 DEBUG 15 --- [http-nio-8080-exec-3] c.j.j.mapper.TeaProductMapper.getTea     : <==      Total: 0
+2020-06-17 08:31:59.437 DEBUG 15 --- [http-nio-8080-exec-5] c.j.j.mapper.TeaProductMapper.getTea     : <==      Total: 0
+2020-06-17 08:32:02.457 DEBUG 15 --- [http-nio-8080-exec-8] c.j.j.mapper.TeaProductMapper.getTea     : ==>  Preparing: select * from tea_product where teaType=? 
+2020-06-17 08:32:02.461 DEBUG 15 --- [http-nio-8080-exec-10] c.j.j.mapper.TeaProductMapper.getTea     : ==>  Preparing: select * from tea_product where teaType=? 
+2020-06-17 08:32:02.476 DEBUG 15 --- [http-nio-8080-exec-8] c.j.j.mapper.TeaProductMapper.getTea     : ==> Parameters: 1(Integer)
+2020-06-17 08:32:02.476 DEBUG 15 --- [http-nio-8080-exec-10] c.j.j.mapper.TeaProductMapper.getTea     : ==> Parameters: 1(Integer)
+2020-06-17 08:32:02.485 DEBUG 15 --- [http-nio-8080-exec-10] c.j.j.mapper.TeaProductMapper.getTea     : <==      Total: 2
+2020-06-17 08:32:02.490 DEBUG 15 --- [http-nio-8080-exec-8] c.j.j.mapper.TeaProductMapper.getTea     : <==      Total: 2
+2020-06-17 08:32:06.654 DEBUG 15 --- [http-nio-8080-exec-9] c.j.j.m.TeaProductMapper.getTeaById      : ==>  Preparing: select * from tea_product where id=? 
+2020-06-17 08:32:06.665 DEBUG 15 --- [http-nio-8080-exec-9] c.j.j.m.TeaProductMapper.getTeaById      : ==> Parameters: 56(Integer)
+2020-06-17 08:32:06.680 DEBUG 15 --- [http-nio-8080-exec-9] c.j.j.m.TeaProductMapper.getTeaById      : <==      Total: 1
+2020-06-17 08:32:06.682 DEBUG 15 --- [http-nio-8080-exec-9] c.j.j.m.WeixinUserCartMapper.addCart     : ==>  Preparing: insert into weixin_user_cart(userId,productId,productNum) values(?,?,?) 
+2020-06-17 08:32:06.689 DEBUG 15 --- [http-nio-8080-exec-9] c.j.j.m.WeixinUserCartMapper.addCart     : ==> Parameters: 4(Integer), 56(Integer), 1(Integer)
+2020-06-17 08:32:06.696 DEBUG 15 --- [http-nio-8080-exec-9] c.j.j.m.WeixinUserCartMapper.addCart     : <==    Updates: 1
+2020-06-17 08:32:12.271 DEBUG 15 --- [http-nio-8080-exec-2] c.j.j.mapper.TeaProductMapper.getTea     : ==>  Preparing: select * from tea_product where teaType=? 
+2020-06-17 08:32:12.274 DEBUG 15 --- [http-nio-8080-exec-2] c.j.j.mapper.TeaProductMapper.getTea     : ==> Parameters: 1(Integer)
+2020-06-17 08:32:12.279 DEBUG 15 --- [http-nio-8080-exec-2] c.j.j.mapper.TeaProductMapper.getTea     : <==      Total: 2
+2020-06-17 08:32:13.816 DEBUG 15 --- [http-nio-8080-exec-4] c.j.j.m.WeixinUserCartMapper.getCart     : ==>  Preparing: select * from weixin_user_cart where userId=? 
+2020-06-17 08:32:13.816 DEBUG 15 --- [http-nio-8080-exec-1] c.j.j.m.WeixinUserCartMapper.getCart     : ==>  Preparing: select * from weixin_user_cart where userId=? 
+2020-06-17 08:32:13.831 DEBUG 15 --- [http-nio-8080-exec-1] c.j.j.m.WeixinUserCartMapper.getCart     : ==> Parameters: 4(Integer)
+2020-06-17 08:32:13.838 DEBUG 15 --- [http-nio-8080-exec-4] c.j.j.m.WeixinUserCartMapper.getCart     : ==> Parameters: 4(Integer)
+2020-06-17 08:32:13.843 DEBUG 15 --- [http-nio-8080-exec-1] c.j.j.m.WeixinUserCartMapper.getCart     : <==      Total: 1
+2020-06-17 08:32:13.845 DEBUG 15 --- [http-nio-8080-exec-4] c.j.j.m.WeixinUserCartMapper.getCart     : <==      Total: 1
+2020-06-17 08:32:13.849 DEBUG 15 --- [http-nio-8080-exec-4] c.j.j.m.TeaProductMapper.getTeaById      : ==>  Preparing: select * from tea_product where id=? 
+2020-06-17 08:32:13.852 DEBUG 15 --- [http-nio-8080-exec-1] c.j.j.m.TeaProductMapper.getTeaById      : ==>  Preparing: select * from tea_product where id=? 
+2020-06-17 08:32:13.855 DEBUG 15 --- [http-nio-8080-exec-4] c.j.j.m.TeaProductMapper.getTeaById      : ==> Parameters: 56(Integer)
+2020-06-17 08:32:13.859 DEBUG 15 --- [http-nio-8080-exec-1] c.j.j.m.TeaProductMapper.getTeaById      : ==> Parameters: 56(Integer)
+2020-06-17 08:32:13.864 DEBUG 15 --- [http-nio-8080-exec-4] c.j.j.m.TeaProductMapper.getTeaById      : <==      Total: 1
+2020-06-17 08:32:13.868 DEBUG 15 --- [http-nio-8080-exec-1] c.j.j.m.TeaProductMapper.getTeaById      : <==      Total: 1
+2020-06-17 08:32:16.138 DEBUG 15 --- [http-nio-8080-exec-5] c.j.j.m.WeixinUserCartMapper.getCart     : ==>  Preparing: select * from weixin_user_cart where userId=? 
+2020-06-17 08:32:16.147 DEBUG 15 --- [http-nio-8080-exec-5] c.j.j.m.WeixinUserCartMapper.getCart     : ==> Parameters: 4(Integer)
+2020-06-17 08:32:16.161 DEBUG 15 --- [http-nio-8080-exec-5] c.j.j.m.WeixinUserCartMapper.getCart     : <==      Total: 1
+2020-06-17 08:32:16.173 DEBUG 15 --- [http-nio-8080-exec-5] c.j.j.m.TeaProductMapper.getTeaById      : ==>  Preparing: select * from tea_product where id=? 
+2020-06-17 08:32:16.177 DEBUG 15 --- [http-nio-8080-exec-5] c.j.j.m.TeaProductMapper.getTeaById      : ==> Parameters: 56(Integer)
+2020-06-17 08:32:16.186 DEBUG 15 --- [http-nio-8080-exec-5] c.j.j.m.TeaProductMapper.getTeaById      : <==      Total: 1
+2020-06-17 08:32:22.623 DEBUG 15 --- [http-nio-8080-exec-10] c.j.j.m.WeixinUserCartMapper.getCart     : ==>  Preparing: select * from weixin_user_cart where userId=? 
+2020-06-17 08:32:22.630 DEBUG 15 --- [http-nio-8080-exec-10] c.j.j.m.WeixinUserCartMapper.getCart     : ==> Parameters: 4(Integer)
+2020-06-17 08:32:22.642 DEBUG 15 --- [http-nio-8080-exec-10] c.j.j.m.WeixinUserCartMapper.getCart     : <==      Total: 1
+2020-06-17 08:32:22.647 DEBUG 15 --- [http-nio-8080-exec-10] c.j.j.m.TeaProductMapper.getTeaById      : ==>  Preparing: select * from tea_product where id=? 
+2020-06-17 08:32:22.650 DEBUG 15 --- [http-nio-8080-exec-10] c.j.j.m.TeaProductMapper.getTeaById      : ==> Parameters: 56(Integer)
+2020-06-17 08:32:22.657 DEBUG 15 --- [http-nio-8080-exec-10] c.j.j.m.TeaProductMapper.getTeaById      : <==      Total: 1

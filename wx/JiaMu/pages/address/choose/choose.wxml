@@ -1,0 +1,53 @@
+<!--pages/address/choose/choose.wxml-->
+<!--地址-->
+<view class="page"> 
+  <wux-dialog id="wux-dialog" />
+  <wux-dialog id="wux-dialog--alert" />
+
+  <view bindtap='add' class="address-add-button">
+  + 添加地址
+  </view>
+
+  <view  bindtap='myself' class="address-add-button">
+  到店自取
+  </view>
+
+
+  <!--地址-->
+  <view class="address-box" 
+        wx:for="{{address}}" 
+        data-address="{{item}}"
+        wx:key="unique" 
+        bindtap="chooseAddress" >
+    <view class="address-first">
+      <view class="address-name">{{item.userName}}</view>
+      <view data-id="{{item.id}}"
+            data-name="{{item.userName}}"
+            data-phone="{{item.userPhone}}"
+            data-address1a="{{item.userAddress1a}}"
+            data-address1b="{{item.userAddress1b}}"
+            data-address1c="{{item.userAddress1c}}"
+            data-address2="{{item.userAddress2}}"
+            catchtap="update" 
+            class="address-update">
+        <text class="cuIcon-info lg text-gray"></text>
+      </view>
+    </view>
+    <view class="address-second">
+    {{item.userAddress1a+item.userAddress1b+item.userAddress1c+item.userAddress2}}
+    </view>
+    <view class="address-thrid">
+      <view class="address-phone">{{item.userPhone}}</view>
+      <view catchtap="delete" data-id="{{item.id}}" class="address-delete">
+        <text class="cuIcon-delete lg text-gray"></text>
+      </view>
+    </view>
+
+  </view>
+
+
+
+
+  
+
+</view>

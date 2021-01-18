@@ -1,0 +1,38 @@
+<!--pages/detail/detail.wxml-->
+<wux-dialog id="wux-dialog" />
+<wux-dialog id="wux-dialog--alert" />
+<view>
+   <image class="teaPhoto" mode="widthFix" src="{{tea.teaPhotoUrl}}"></image>
+</view>
+
+<view class="detail-box">
+  <view class="detail-first">
+    <view class="detail-name">{{tea.teaName}}</view>
+    <view class="detail-logo">在售</view>
+    <view bindtap="delete" class="detail-delete"> 下架</view>
+
+    
+  </view>
+  <view class="detail-price">¥ {{tea.teaPrice}}</view>
+  <view class="detail-text">规格：{{tea.teaSize}}</view>
+  <view wx:if="{{tea.teaType==1}}" class="detail-text">口感：{{tea.teaTaste}}</view>
+  <view wx:if="{{tea.teaType==2}}" class="detail-text">质感：{{tea.teaTaste}}</view>
+  <view class="flex text-logo-box">
+    <view class="flex-sub text-logo">* 品质保障</view>
+    <view class="flex-sub text-logo">* 售后无忧</view>
+    <view class="flex-sub text-logo">* 送货上门</view>
+  </view>
+</view>
+
+<view class="detail-info">
+  <view class="detail-info-head">详  情</view>
+  <view class="detail-info-body">{{tea.teaInfo}}</view>
+  <view class="detail-info-head">更多细节</view>
+</view>
+
+
+<view wx:for="{{teaPhotoUrlList}}" wx:key="unique" class="detail-photo">
+   <image class="teaPhoto" mode="widthFix" src="{{item}}"></image>
+</view>
+
+

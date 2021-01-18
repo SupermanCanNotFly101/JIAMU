@@ -1,0 +1,16 @@
+<!--pages/product/product.wxml-->
+<view >
+  <image class="pic-head"src="../../images/head.png" />
+</view>
+
+<view bindtap="gotoSwipper" class=".add-button">
+  轮播图管理
+</view>
+<view bindtap="gotoTea" class=".add-button">
+  茶叶管理
+</view>
+<view bindtap="gotoTeapot" class=".add-button">
+  茶具管理
+</view>
+
+

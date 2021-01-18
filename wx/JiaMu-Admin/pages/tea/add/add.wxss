@@ -1,0 +1,19 @@
+/* pages/tea/add/add.wxss */
+page{
+  background-color: white;
+}
+.form-box
+{
+  margin:40rpx 40rpx;
+  padding-bottom: 30rpx
+}
+
+.text{
+  margin:40rpx 20rpx;
+  font-size: 20rpx;
+}
+
+.button-box
+{
+  text-align: right;
+}

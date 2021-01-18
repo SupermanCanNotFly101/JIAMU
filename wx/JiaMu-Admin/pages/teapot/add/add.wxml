@@ -1,0 +1,59 @@
+<!--pages/tea/add/add.wxml-->
+<view class="form-box">
+<form bindsubmit="submit">
+  
+  <van-cell-group>
+    <van-field
+      name="teaName"
+      required
+      clearable
+      label="商品名称"
+      icon="question-o"
+      placeholder="请输入商品名(<9字）"
+    />
+    <van-field
+      name="teaSize"
+      required
+      clearable
+      label="商品规格"
+      icon="question-o"
+      placeholder="尺寸(<50字）"
+    />
+    <van-field
+      name="teaTaste"
+      required
+      clearable
+      label="商品质感"
+      icon="question-o"
+      placeholder="材质原料(<100字）"
+    />
+    <van-field
+      name="teaPrice"
+      required
+      clearable
+      type="number"
+      label="商品价格"
+      icon="question-o"
+      placeholder="输入价格（数字）"
+    />
+    <van-field
+      name="teaInfo"
+      required
+      clearable
+      autosize
+      type="textarea"
+      label="商品介绍"
+      icon="question-o"
+      placeholder="输入介绍(<200字）"
+    />
+  </van-cell-group>
+  <view class="text">主图上传（图片推荐4:3比例）</view>
+  <van-uploader file-list="{{ mainFile }}" max-count="1" bind:after-read="afterReadMainFile" bind:delete="deleteMainFile"/>
+  <view class="text">详细图上传（图片推荐4:3比例）</view>
+  <van-uploader multiple="true" file-list="{{ fileList }}"  bind:after-read="afterRead" bind:delete="delete"/>
+
+  <view class="button-box"> 
+    <button type="primary" formType="submit">提交</button>
+  </view>
+</form>
+</view>

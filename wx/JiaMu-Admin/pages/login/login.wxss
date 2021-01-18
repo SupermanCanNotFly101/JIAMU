@@ -1,0 +1,28 @@
+/* pages/login/login.wxss */
+page{
+  background-color: white;
+}
+.form-box
+{
+  
+}
+
+.pic-head
+{
+  text-align: center;
+}
+.account{
+  width: 90%;
+  height: 80rpx;
+  margin: 20px auto;
+  border:1px solid #ccc;
+  border-radius: 50rpx;
+  
+}
+
+.account-input
+{
+  width: 90%;
+  height: 80rpx;
+  margin: 0 auto;
+}

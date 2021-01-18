@@ -1,0 +1,45 @@
+/* pages/home/home.wxss */
+page{
+  background-color: white;
+  width:100%;
+}
+
+.home-head
+{
+  padding-top:20rpx;
+}
+
+.home-pic
+{
+  width:100%;
+  height:80rpx;
+}
+
+.home-button
+{
+  height:200rpx;
+}
+
+.home-button-one
+{
+  padding: 10rpx 20rpx;
+  text-align: center;
+}
+
+.home-button-img
+{
+  width:150rpx;
+  height:150rpx;
+}
+
+.home-button-text
+{
+  font-size: 22rpx;
+}
+
+.home-line
+{
+  width:100%;
+  height:100rpx;
+}
+

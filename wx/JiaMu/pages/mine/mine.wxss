@@ -1,0 +1,106 @@
+/* pages/mine/mine.wxss */
+view{
+  box-sizing: content-box;
+}
+
+page{
+  height:100%;
+}
+
+.jiamu-mine{
+  height:100%;
+  background-color: white;
+}
+
+.jiamu-mine-userinfo{
+  position: relative;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  /*align-items: center;*/
+  margin-left: 60rpx;
+  margin-right: 60rpx;
+  padding-bottom: 30rpx;
+  border-bottom: 2px solid #f5f5f5;
+  }
+
+.jiamu-mine-userinfo-avatar {  
+  overflow:hidden;  
+  /*display: block;  */
+  width: 100rpx;  
+  height: 100rpx;  
+  margin: 20rpx 0rpx;  
+  /*border-radius: 50%; */ 
+  border: 2px solid #fff;
+  float:left;  
+}  
+
+.jiamu-mine-userinfo-nickname {
+  /*margin-top: 40rpx;*/
+  color: #727070;
+  font-size: 40rpx;
+  font-weight: bold;
+  float:left;
+  /*width:200rpx;*/
+  display: inline-block;
+  white-space: nowrap; 
+  overflow: hidden;
+  text-overflow:ellipsis; 
+}
+
+.jiamu-mine-copyright
+{
+  width:100%;
+  text-align: center;
+  font-size: 15rpx;
+  position: fixed;
+  bottom: 50rpx;
+}
+
+.jiamu-mine-button-box
+{
+  width:100%;
+  text-align: center;
+  margin-top: 40rpx
+ 
+}
+
+.jiamu-mine-button
+{
+  width:94%;
+  /*border-bottom: solid #E0E0E0 0.5px;*/
+  margin-left: 3%;
+  margin-right:3%;
+  
+}
+
+.jiamu-mine-icon-left{
+  float:left;
+  width:5%;
+  height:100%;
+  text-align: left;
+  padding-left: 5%;
+}
+
+.jiamu-mine-icon_right{
+  float:left;
+  width:5%;
+  height:100%;
+  text-align: right;
+  padding-right: 5%;
+}
+
+.jiamu-mine-text{
+  float:left;
+  width:80%;
+  padding-left: 5%;
+  height:100%;
+  text-align: left;
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.mine-pic
+{
+  width:100%;
+}

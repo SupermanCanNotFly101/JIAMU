@@ -1,0 +1,22 @@
+<!--pages/login/login.wxml-->
+<view class="pic-head">
+  <image src="../../images/head.png" />
+</view>
+
+
+<view class="form-box">
+  <form bindsubmit="formSubmit">
+    <view class="account">
+      <input class="account-input" 
+             name="no" 
+             placeholder="请输入管理员账号" />
+    </view>
+    <view class="account">
+      <input class="account-input" 
+              type="password" 
+              name="pwd"
+              placeholder="请输入管理员密码" />
+    </view>
+    <button disabled='{{disabled}}' form-type='submit'>登录</button>
+  </form>
+</view>

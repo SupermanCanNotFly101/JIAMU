@@ -1,0 +1,83 @@
+/* pages/order/order.wxss */
+page
+{
+  background-color: white;
+}
+
+.order-box
+{
+  height:380rpx;
+  /* border: solid 1rpx #e6d9d1; */
+  /* margin:70rpx 0rpx; */
+  margin: 20rpx 40rpx 40rpx 40rpx;
+  background-color: white;
+  border-radius: 20rpx;
+  box-shadow: 0rpx 2rpx 10rpx #b3aeae;
+
+}
+
+.order-box-content
+{
+  height:240rpx;
+  overflow: auto;
+  /* border-bottom: solid 1rpx #e6d9d1; */
+  white-space: nowrap; 
+  text-overflow:ellipsis;
+  padding-left: 20rpx;
+
+}
+
+.order-box-head
+{
+  padding: 16rpx 30rpx;
+  /* border-bottom: solid 1rpx #e6d9d1; */
+  color: #b3a095;
+  white-space: nowrap; 
+  overflow: hidden;
+  text-overflow:ellipsis;
+  font-size:25rpx;
+}
+
+.tea-photo
+{
+  float: left;
+  margin:40rpx 10rpx;
+}
+
+.teaPhoto
+{
+  height: 160rpx!important;
+  width: 200rpx;
+}
+
+.icon-right
+{
+  height: 180rpx;
+  text-align: center;
+  float:right;
+  width:200rpx;
+  font-size: 50rpx;
+  color: #b3a095;
+  padding-top:90rpx;
+
+}
+
+.order-bottom-left
+{
+  float:left;
+}
+
+.order-bottom
+{
+  padding: 16rpx 30rpx;
+  color: #b3a095;
+  white-space: nowrap; 
+  overflow: hidden;
+  text-overflow:ellipsis;
+  font-size:25rpx;
+}
+
+.order-bottom-right
+{
+  float:right;
+}

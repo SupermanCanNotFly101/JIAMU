@@ -1,0 +1,203 @@
+/* pages/order/detail/detail.wxss */
+page
+{
+  background-color: white;
+  width:100%;
+}
+
+.cart-info
+{
+  height: 220rpx;
+	width: 100%;
+  padding: 0rpx 30rpx;
+  border-bottom: solid 1rpx #e6d9d1;
+  margin-bottom:20rpx;
+}
+
+.button-bottom
+{
+  width:70%;
+  margin: 40rpx 15%;
+}
+.teaPhoto
+{
+  height:80%!important;
+}
+
+.order-box
+{
+  border-bottom: solid 1rpx #e6d9d1;
+  border-radius:20%;
+  margin:20rpx 40rpx;
+}
+
+.cart-left
+{
+  width:30%;
+  float:left;
+}
+
+.cart-right
+{
+  float:left;
+  width:50%;
+  height:100%;
+  margin-right: 40rpx;
+
+}
+
+
+
+.orderId-text
+{
+  padding: 40rpx 60rpx;
+  font-size: 25rpx;
+  color: #b3a095;
+  white-space: nowrap; 
+  overflow: hidden;
+  text-overflow:ellipsis;
+  border-bottom: solid 1rpx #e6d9d1;
+}
+
+
+.drawer-name
+{
+  font-size: 40rpx;
+  color: #666666;
+  font-weight: bold;
+  margin-bottom: 20rpx;
+  white-space: nowrap; 
+  overflow: hidden;
+  text-overflow:ellipsis;
+}
+
+.drawer-text
+{
+  font-size: 20rpx;
+  color: #666666;
+  display: inline-block;
+  white-space: nowrap; 
+  overflow: hidden;
+  text-overflow:ellipsis;
+  width: 100%;
+
+}
+
+.orderId-text1
+{
+  padding: 20rpx 60rpx;
+  font-size: 25rpx;
+  color: #b3a095;
+  white-space: nowrap; 
+  overflow: hidden;
+  text-overflow:ellipsis;
+  width:100%;
+}
+
+
+.cart-bar
+{
+  position:fixed;
+  bottom: 0;
+  width:100%;
+  height:55px;
+}
+
+.cart-bar-right
+{
+  width:100%;
+  text-align: center;
+  float:left;
+  height: 100%;
+  background-color: #c5a087;
+  font-size: 30rpx;
+  color:white;
+}
+.cart-bar-right-text
+{
+  position: absolute;
+  width:100%;
+  height:40rpx;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+
+.address-add-button
+{
+  background-color: white;
+  margin: 40rpx 5%;
+  width:90%;
+  height:200rpx;
+  border: solid 2rpx #e6e1dd;
+  text-align: center;
+  padding: 90rpx 0rpx;
+  color:#b8a596;
+  line-height: 20rpx;
+}
+
+.cart-top
+{
+  height: 90%;
+  overflow: auto;
+
+}
+
+.address-box
+{
+  background-color: #e6e1dd;
+  margin: 40rpx 5%;
+  width:90%;
+  height:200rpx;
+  color:#666666;
+}
+
+.address-first
+{
+  padding: 30rpx 40rpx 10rpx 40rpx;
+  
+  zoom:1;
+  white-space: nowrap; 
+  overflow: hidden;
+  text-overflow:ellipsis;
+  
+}
+
+.address-name
+{
+  width:70%;
+  text-align: left;
+  float: left;
+  font-size:40rpx;
+  font-weight: bold;
+}
+
+
+.address-second
+{
+  
+  font-size:25rpx;
+  display: inline-block;
+  white-space: nowrap;   
+  overflow: hidden;
+  text-overflow:ellipsis;
+  padding-left: 40rpx;
+  width: 90%;
+
+}
+
+.address-thrid
+{
+  padding-left: 40rpx;
+
+  
+}
+
+.address-phone
+{
+  text-align: left;
+  font-size:25rpx;
+  width:80%;
+  float: left;
+}

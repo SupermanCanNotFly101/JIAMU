@@ -1,0 +1,64 @@
+<!--pages/pay/pay.wxml-->
+<wux-dialog id="wux-dialog" />
+<wux-dialog id="wux-dialog--alert" />
+
+
+<view class="cart-top" style="height:{{scrennHeight-5}}px">
+
+<view style="display:{{choose?'block':'none'}}" bindtap="chooseAddress" class="address-add-button">
+  + 选择地址/到店自取
+</view>
+
+<view style="display:{{myself?'block':'none'}}" bindtap="chooseAddress" class="address-add-button">
+  到店自取
+  (手机号 {{myselfPhone}})
+
+</view>
+
+<!--地址-->
+<view class="address-box" style="display:{{address?'block':'none'}}" bindtap="chooseAddress">
+  <view class="address-first">
+  <view class="address-name">{{addressInfo.userName}}(更换）</view>
+  <view class="address-second">
+  {{addressInfo.userAddress1a+addressInfo.userAddress1b+addressInfo.userAddress1c+addressInfo.userAddress2}}
+  </view>
+  <view class="address-thrid">
+    <view class="address-phone">{{addressInfo.userPhone}}</view>
+  </view>
+</view>
+
+
+
+</view>
+
+<view wx:for="{{payCart}}" wx:key="unoque" class="cart-info">
+  <view class="cart-right">
+    <image class="teaPhoto" mode="widthFix" src="{{item.teaPhotoUrl}}"></image>
+  </view>
+  <view class="cart-left">
+    <view class="drawer-name"> {{item.teaName}} </view>
+    <view class="drawer-text">规格：{{item.teaSize}}</view>
+    <view class="drawer-text">价格：{{item.teaPrice}}</view>
+    <view class="drawer-text">数量：{{item.productNum}}</view>
+  </view>
+  
+</view>
+
+<view class="orderId-text1">订单号: {{orderId}}</view>
+<view class="orderId-text1">总金额: ¥ {{sumMoney}}</view>
+<view class="orderId-text1">下单时间: {{time}}</view>
+
+
+
+<view class="cart-bar">
+  <view  bindtap="gotoPay" class="cart-bar-right">
+    <view   class="cart-bar-right-text">支 付 ¥{{sumMoney}}</view>
+  </view>
+</view>
+
+</view>
+
+
+
+
+

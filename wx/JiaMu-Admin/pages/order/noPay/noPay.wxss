@@ -1,0 +1,2 @@
+/* pages/order/noPay/noPay.wxss */
+@import "../order.wxss";

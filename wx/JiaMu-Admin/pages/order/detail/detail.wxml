@@ -1,0 +1,50 @@
+<!--pages/order/detail/detail.wxml-->
+<!--pages/order/detail/detail.wxml-->
+<wux-dialog id="wux-dialog" />
+<wux-dialog id="wux-dialog--alert" />
+<wux-actionsheet id="wux-actionsheet" />
+<view style="display:{{!addressStatus?'block':'none'}}"  class="address-add-button">
+  到店自取({{userPhone}})
+</view>
+
+<!--地址-->
+<view class="address-box" style="display:{{addressStatus?'block':'none'}}">
+  <view class="address-first">
+    <view class="address-name">{{userName}}</view>
+  </view>
+  <view class="address-second">
+    {{userAddress}}
+  </view>
+  <view class="address-thrid">
+    <view class="address-phone">{{userPhone}}</view>
+  </view>
+</view>
+
+
+
+<view wx:for="{{cart}}" wx:key="unoque" class="cart-info">
+  <view class="cart-right">
+    <image class="teaPhoto" mode="widthFix" src="{{item.teaPhotoUrl}}"></image>
+  </view>
+  <view class="cart-left">
+    <view bindtap="gotoDetail" 
+          data-id="{{item.productId}}" 
+          class="drawer-name"> {{item.teaName}} </view>
+    <view class="drawer-text">规格：{{item.teaSize}}</view>
+    <view class="drawer-text">价格：{{item.teaPrice}}</view>
+    <view class="drawer-text">数量：{{item.productNum}}</view>
+  </view>
+  
+</view>
+
+<view class="orderId-text1">订单号: {{orderId}}</view>
+<view class="orderId-text1">总金额: ¥ {{sumMoney}}</view>
+<view wx:if="{{payStatus>2}}"class="orderId-text1">快递号: {{expressId}}</view>
+<view class="orderId-text1">订单状态:  {{payStatusInfo}}</view>
+
+<view wx:if="{{payStatus<4}}"> 
+  <button class="button-bottom" bindtap="showActionSheet2" type="default" plain="true">处理订单</button>
+</view>
+<view wx:if="{{payStatus==3}}"> 
+  <button class="button-bottom" bindtap="express" type="default" plain="true">输入/修改快递号</button>
+</view>

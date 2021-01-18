@@ -1,0 +1,22 @@
+/* pages/address/add/add.wxss */
+
+.address-add-form{
+  background-color: white;
+}
+
+.address-add-button
+{
+  width:100%;
+}
+
+.button
+{
+  padding-top:5%;
+  background-color:#F5F5F5;
+  border:none;
+}
+picker
+{
+  color: black;
+}
+

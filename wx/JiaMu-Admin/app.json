@@ -1,0 +1,46 @@
+{
+  "pages":[
+    "pages/login/login",
+    "pages/product/product",
+    "pages/order/order",
+    "pages/order/detail/detail",
+    "pages/order/noPay/noPay",
+    "pages/swipper/swipper",
+    "pages/swipper/add/add",
+    "pages/tea/tea",
+    "pages/tea/add/add",
+    "pages/tea/detail/detail",
+    "pages/teapot/teapot",
+    "pages/teapot/add/add",
+    "pages/teapot/detail/detail"
+    
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "嘉木后台管理",
+    "navigationBarTextStyle":"black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "color": "#2c2c2c",
+    "backgroundColor": "#ffffff",
+    "selectedColor": "#2c2c2c",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/product/product",
+        "text": "商品管理",
+        "iconPath": "images/icon/home.png",
+        "selectedIconPath": "images/icon/homeS.png"
+      },
+      {
+        "pagePath": "pages/order/order",
+        "text": "订单管理",
+        "iconPath": "images/icon/order.png",
+        "selectedIconPath": "images/icon/orderS.png"
+      }
+    ]
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "van-uploader": "../../vant-dist/uploader/index",
+    "wux-button": "../../dist/button/index"
+  }
+}

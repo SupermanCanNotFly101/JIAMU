@@ -1,0 +1,84 @@
+<!--pages/cart/cart.wxml-->
+
+<view wx:if="{{isNull}}"> 
+
+  <view class="cartNullText">
+    <view class="cartNullBigText">
+      购物车
+    </view>
+    <view class="cartNullSmallText">
+      购物车空空如也，去主页看看吧！
+    </view>
+  </view >
+
+  <view class="cartNullPhoto">
+    <image class="cartNullPhotoImage" 
+         src="../../images/pics/cartNull.png" 
+         mode="widthFix"></image>
+  </view>
+
+</view>
+
+
+<view wx:else>
+  <view class="cart-top" style="height:{{scrennHeight-55}}px">
+  <view  class="cart-box" wx:for="{{cart}}" wx:key="unique">
+    <view>
+    <view class="cart-select">
+      <wux-icon data-index="{{index}}"
+              bindtap="select" 
+              class="cart-select-icon"
+              type="{{item.select ?  'ios-checkmark-circle-outline':'ios-radio-button-off' }}"
+              size="25"/>
+    </view>
+    <view class="cart-info">
+      <view data-index="{{index}}"bindtap="gotoDetail" class="tap-info" >
+        <view class="info-left">
+          <image class="info-pic" mode="scaleToFill" src="{{item.teaPhotoUrl}}"/>
+        </view>
+        <view class="info-right">
+          <view data-index="{{index}}" class="drawer-name"> {{item.teaName}} </view>
+          <view class="drawer-text">规格：{{item.teaSize}}</view>
+          <view class="drawer-text">口感：{{item.teaTaste}}</view>
+          <view class="drawer-text">价格：{{item.teaPrice}}</view>
+        </view>
+      </view>
+      <view class="info-bottom">
+        
+        
+
+        <view data-id="{{item.cartId}}" 
+              data-index="{{index}}" 
+              bindtap="delete" 
+              class="cart-info-delete">
+          <text class="cuIcon-delete lg"></text>
+        </view>
+        <view data-id="{{item.cartId}}" 
+              data-index="{{index}}" 
+              bindtap="addNum" 
+              class="cart-info-icon">+</view>
+        <view class="cart-info-num">{{item.productNum}}</view>
+        <view data-id="{{item.cartId}}" 
+              data-index="{{index}}" 
+              bindtap="reduceNum" 
+              class="cart-info-icon">-</view>
+        
+        
+      </view>
+    </view>
+    </view>
+  </view>
+  </view>
+
+  <view class="cart-bar">
+    <view class="cart-bar-left">
+      <view class="cart-bar-left-text">¥ {{sumMoney}}</view>
+    </view>
+    <view  bindtap="gotoPay" class="cart-bar-right">
+    <view   class="cart-bar-right-text">确  认</view>
+    </view>
+  </view>
+
+</view>
+
+

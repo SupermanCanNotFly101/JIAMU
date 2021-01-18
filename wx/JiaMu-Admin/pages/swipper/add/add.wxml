@@ -1,0 +1,15 @@
+<!--pages/swipper/add/add.wxml-->
+<view class="upload-box">推荐图片 长:宽=2:1</view>
+
+<view class="upload-box">
+
+  <van-uploader file-list="{{ fileList }}" 
+                bind:after-read="afterRead"
+                multiple="true"
+                bind:delete="delete" />
+</view>
+
+<view class="button-box"> 
+    <button type="primary" bindtap="submit">提交</button>
+  </view>
+

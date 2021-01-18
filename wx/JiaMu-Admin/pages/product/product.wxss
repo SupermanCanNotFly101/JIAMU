@@ -1,0 +1,12 @@
+/* pages/product/product.wxss */
+
+page{
+  background-color: white;
+}
+
+
+.pic-head
+{
+  height: 200rpx;
+  margin: 30px 80rpx;
+}

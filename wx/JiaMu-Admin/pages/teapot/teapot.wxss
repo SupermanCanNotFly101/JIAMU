@@ -1,0 +1,98 @@
+/* pages/teapot/teapot.wxss */
+.add-button
+{
+  background-color: white;
+  margin: 40rpx 5%;
+  width:90%;
+  border: solid 2rpx #e6e1dd;
+  text-align: center;
+  padding: 90rpx 0rpx;
+  color:#b8a596;
+  line-height: 20rpx;
+}
+
+page
+{
+  width:100%;
+  background-color: white;
+}
+
+.teaBox
+{
+  margin: 80rpx 50rpx;
+  background-color: #F5F5F5;
+  box-shadow: 0rpx 2rpx 10rpx #b3aeae
+}
+
+.teaPhotoBox
+{
+  background-color: #F5F5F5;
+}
+
+.teaPhoto
+{
+  width:100%;
+}
+
+.teaText
+{
+  padding: 20rpx 40rpx;
+  font-weight: bold;
+  background-color: #F5F5F5;
+  overflow:auto;
+  zoom:1;
+}
+
+.teaName
+{
+  width:70%;
+  float:left;
+  color: #666666;
+  display: inline-block;
+  white-space: nowrap;   
+  overflow: hidden;
+  text-overflow:ellipsis;
+}
+
+.teaPrice
+{
+  width:30%;
+  float:left;
+  text-align: right;
+  color: #c5a38c;
+  display: inline-block;
+  white-space: nowrap; 
+  overflow: hidden;
+  text-overflow:ellipsis;
+}
+
+.teaInfo
+{
+  width:100%;
+  padding:0rpx 40rpx 30rpx 40rpx;
+  overflow:auto;
+  zoom:1;
+}
+
+.teaInfoText
+{
+  width:80%;
+  display: inline-block;
+  white-space: nowrap; 
+  overflow: hidden;
+  text-overflow:ellipsis;
+  font-size: 20rpx;
+  /*font-weight: lighter;*/
+  float:left;
+  color: #666666;
+}
+
+.teaInfoButton
+{
+  width:20%;
+  float:left;
+  text-align: right;
+  font-size: 20rpx;
+  /*font-weight: lighter;*/
+  color: #666666;
+}

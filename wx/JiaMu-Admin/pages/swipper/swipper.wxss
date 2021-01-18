@@ -1,0 +1,40 @@
+/* pages/swipper/swipper.wxss */
+@import "../product/product.wxss";
+page{
+  background-color: white;
+}
+.add-button
+{
+  background-color: white;
+  margin: 40rpx 5%;
+  width:90%;
+  border: solid 2rpx #e6e1dd;
+  text-align: center;
+  padding: 90rpx 0rpx;
+  color:#b8a596;
+  line-height: 20rpx;
+}
+
+
+.for-box
+{
+  margin: 30rpx 50rpx;
+  overflow: auto;
+  
+}
+
+.imageBox
+{
+  width: 100%;
+  float:left;
+}
+.deleteBox
+{
+  float: left;
+  width: 100%;
+  text-align: center;
+  font-size: 40rpx;
+  border: solid 2rpx #e6e1dd;
+  color: #b8a596;
+
+}

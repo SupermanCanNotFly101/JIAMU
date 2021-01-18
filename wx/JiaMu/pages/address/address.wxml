@@ -1,0 +1,38 @@
+<!--pages/address/address.wxml-->
+<view class="page"> 
+
+  <view bindtap='add' class="address-add-button">
+  + 添加地址
+  </view>
+
+  <!--地址-->
+  <view class="address-box" wx:for="{{address}}" wx:key="unique">
+    <view class="address-first">
+      <view class="address-name">{{item.userName}}</view>
+      <view data-id="{{item.id}}"
+            data-name="{{item.userName}}"
+            data-phone="{{item.userPhone}}"
+            data-address1a="{{item.userAddress1a}}"
+            data-address1b="{{item.userAddress1b}}"
+            data-address1c="{{item.userAddress1c}}"
+            data-address2="{{item.userAddress2}}"
+            bindtap="update" 
+            class="address-update">
+        <text class="cuIcon-info lg text-gray"></text>
+      </view>
+    </view>
+    <view class="address-second">
+    {{item.userAddress1a+item.userAddress1b+item.userAddress1c+item.userAddress2}}
+    </view>
+    <view class="address-thrid">
+      <view class="address-phone">{{item.userPhone}}</view>
+      <view bindtap="delete" data-id="{{item.id}}" class="address-delete">
+        <text class="cuIcon-delete lg text-gray"></text>
+      </view>
+    </view>
+
+  </view>
+
+  
+
+</view>
